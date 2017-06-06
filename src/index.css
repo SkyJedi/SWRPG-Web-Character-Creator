@@ -10,7 +10,7 @@ h1 {
 }
 
 .App {
-  display: block;
+  font: normal 16px/normal Tahoma, Geneva, sans-serif;
 }
 
 .messagebox {
@@ -142,6 +142,7 @@ input[type=text], select {
     padding: 5px;
 }
 
+
 .lrgButton {
   display: inline-block;
   -webkit-box-sizing: content-box;
@@ -151,15 +152,15 @@ input[type=text], select {
   height: 30px;
   cursor: pointer;
   margin: 3px;
-  padding: 4px;
   vertical-align: middle;
-  border-radius: 1px;
-  font: normal 18px/16px Tahoma, Geneva, sans-serif;
+  font: normal 18px/normal Tahoma, Geneva, sans-serif;
   color: #ffffff;
   text-align: center;
   text-overflow: clip;
   background: #1294eb;
   text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #b7b7b7;
 }
 
 .lrgButton:hover {
