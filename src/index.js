@@ -33,7 +33,7 @@ function setChanPage () {
 function startUp () {
   var webApp =
   <div className='App'>
-    <div style={{float: 'left', width: '140px', display: 'block'}}>
+    <div style={{float: 'left', width: '140px', display: 'block', marginTop: '50px'}}>
       <SideBar />
     </div>
     <div style={{marginLeft: '145px', marginTop: '15px'}}>
