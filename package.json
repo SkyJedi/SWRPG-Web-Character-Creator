@@ -1,0 +1,27 @@
+{
+  "name": "swrpg-web-character-creator",
+  "version": "1.0.0",
+  "description": "An online character creator for Fantasy Flight Games Star Wars ploe playing games ",
+  "dependencies": {
+    "firebase": "^3.9.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-popup": "^0.8.0"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wolfeidau/npmtest.git"
+  },
+  "author": "SkyJedi",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
