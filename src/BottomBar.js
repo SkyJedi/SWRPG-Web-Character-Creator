@@ -10,7 +10,7 @@ class BottomBar extends Component {
 
   render() {
     return (
-      <div className='navbar' style={{float: 'right', height: '150px', width:'600px'}}>
+      <div className='navbar' style={{float: 'right', width:'560px'}}>
       <div style={{float: 'left'}}>
       {stats.map((stat)=>
         <div className='stats-box'>
