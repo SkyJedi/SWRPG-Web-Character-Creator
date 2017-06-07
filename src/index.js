@@ -5,6 +5,8 @@ import Channel from './Channel';
 import SideBar from './SideBar';
 import TopBar from './TopBar';
 import BottomBar from './BottomBar';
+import MainPage from './MainPage';
+
 import './index.css';
 import * as firebase from 'firebase';
 import config from './config';
@@ -43,10 +45,10 @@ function startUp () {
     <div className='footer'>
       <BottomBar />
     </div>
+    <div style={{marginLeft: '155px', marginTop: '50px'}}>
+      <MainPage />
+    </div>
   </div>;
-
-
-
 
 ReactDOM.render(
     webApp,
