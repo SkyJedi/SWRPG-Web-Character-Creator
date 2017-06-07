@@ -4,6 +4,7 @@ import Popup from 'react-popup';
 import Channel from './Channel';
 import SideBar from './SideBar';
 import TopBar from './TopBar';
+import BottomBar from './BottomBar';
 import './index.css';
 import * as firebase from 'firebase';
 import config from './config';
@@ -36,8 +37,11 @@ function startUp () {
     <div style={{float: 'left', width: '140px', display: 'block', marginTop: '50px'}}>
       <SideBar />
     </div>
-    <div style={{marginLeft: '145px', marginTop: '15px'}}>
+    <div style={{marginLeft: '155px', marginTop: '15px'}}>
       <TopBar />
+    </div>
+    <div className='footer'>
+      <BottomBar />
     </div>
   </div>;
 
