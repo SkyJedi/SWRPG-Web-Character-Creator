@@ -6,9 +6,7 @@ class Channel extends Component {
   setChannel(stop) {
     stop.preventDefault();
     var channel = this.refs.channel.value.replace(/\W/g, '').toLowerCase();
-;
-    var user = this.refs.user.value.replace(/\W/g, '');
-    this.props.setFormChan(channel, user);
+    this.props.setFormChan(channel);
   }
 
   render() {
@@ -18,7 +16,7 @@ class Channel extends Component {
       <h1>GN-R8</h1>
       <h2>SWRPG Character Creator</h2> <br />
       </div>
-      <img src={`/favicon.ico`} alt='' style={{maxWidth:'225px'}} />
+      <img src={`/gn-r8.png`} alt='' style={{maxWidth:'225px'}} />
       <form onSubmit={this.setChannel.bind(this)}>
         <input className='textinput' style={{textAlign: 'center'}} ref="channel" name="channel" placeholder="Channel Name" /> <br /> <br />
         <div>

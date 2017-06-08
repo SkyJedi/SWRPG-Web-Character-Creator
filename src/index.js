@@ -21,8 +21,8 @@ if (channel !== undefined) {
   setChanPage();
 }
 
-function setChanName(chanName, userName) {
-  window.location = `/${chanName}?${userName}`;
+function setChanName(chanName) {
+  window.location = `/${chanName}`;
 }
 
 function setChanPage() {
