@@ -14,11 +14,13 @@ class Channel extends Component {
   render() {
     return (
       <div className='login-box'>
-      <h1>SWRPG Character Creator</h1> <div />
+      <div>
+      <h1>GN-R8</h1>
+      <h2>SWRPG Character Creator</h2> <br />
+      </div>
       <img src={`/favicon.ico`} alt='' style={{maxWidth:'225px'}} />
       <form onSubmit={this.setChannel.bind(this)}>
-        <input className='textinput' style={{textAlign: 'center'}} ref="channel" name="channel" placeholder="Channel Name" /> <div />
-        <input className='textinput' style={{textAlign: 'center'}} ref="user" name="user" placeholder="User Name" />
+        <input className='textinput' style={{textAlign: 'center'}} ref="channel" name="channel" placeholder="Channel Name" /> <br /> <br />
         <div>
         <button>Enter</button>
         </div>
