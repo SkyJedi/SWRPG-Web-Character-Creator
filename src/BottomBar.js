@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import * as firebase from 'firebase';
 import './index.css';
 
-var channel = window.location.pathname.slice(1).toLowerCase();
 var stats = ['Soak', 'Wounds', 'Strain'],
     characteristics = ['Brawn', 'Agility', 'Intellect', 'Cunning', 'Willpower', 'Presence']
 
