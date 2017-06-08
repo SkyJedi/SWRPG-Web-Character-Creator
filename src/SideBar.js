@@ -1,17 +1,6 @@
 import React, { Component } from 'react';
 import * as firebase from 'firebase';
 import './index.css';
-import Characters from './pages/Characters';
-import Description from './pages/Description';
-import Background from './pages/Background';
-import Obligations from './pages/Obligations';
-import Species from './pages/Species';
-import Career from './pages/Career';
-import Characteristics from './pages/Characteristics';
-import Specializations from './pages/Specializations';
-import Motivations from './pages/Motivations';
-import Skills from './pages/Skills';
-import Equipment from './pages/Equipment';
 var channel = window.location.pathname.slice(1).toLowerCase();
 
 
