@@ -16,7 +16,7 @@ class Channel extends Component {
       <h1>GN-R8</h1>
       <h2>SWRPG Character Creator</h2> <br />
       </div>
-      <img src={`/gn-r8.png`} alt='' style={{maxWidth:'225px'}} />
+      <img src={`/gn-r8.png`} alt='' style={{maxWidth:'350px'}} />
       <form onSubmit={this.setChannel.bind(this)}>
         <input className='textinput' style={{textAlign: 'center'}} ref="channel" name="channel" placeholder="Channel Name" /> <br /> <br />
         <div>
