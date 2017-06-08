@@ -5,11 +5,11 @@ import Channel from './Channel';
 import SideBar from './SideBar';
 import TopBar from './TopBar';
 import BottomBar from './BottomBar';
+import MainPage from './MainPage';
 import './index.css';
 import * as firebase from 'firebase';
 import config from './config';
 firebase.initializeApp(config.config);
-var MainPage = require('./pages/Characters');
 
 if (window.location.pathname !== '/') {
   var channel = window.location.pathname.slice(1).toLowerCase();
