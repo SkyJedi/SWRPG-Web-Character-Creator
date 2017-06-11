@@ -41,7 +41,7 @@ function startUp () {
     <div style={{marginLeft: '155px', marginTop: '15px'}}>
       <TopBar />
     </div>
-    <div className='footer'>
+    <div className='footer' style={{display:'none'}}>
       <BottomBar />
     </div>
     <div style={{marginLeft: '155px', marginTop: '50px'}}>

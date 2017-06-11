@@ -9,6 +9,11 @@ h1 {
   font-size: 4em;
 }
 
+h2 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
 .dark-primary-color    { background: #1976D2; }
 .default-primary-color { background: #2196F3; }
 .light-primary-color   { background: #BBDEFB; }

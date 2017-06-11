@@ -1,7 +1,7 @@
 {
   "name": "swrpg-web-character-creator",
   "version": "1.0.0",
-  "description": "An online character creator for Fantasy Flight Games Star Wars ploe playing games ",
+  "description": "An online character creator for Fantasy Flight Games Star Wars role playing games ",
   "dependencies": {
     "firebase": "^3.9.0",
     "prop-types": "^15.5.10",
