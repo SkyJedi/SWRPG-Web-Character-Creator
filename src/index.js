@@ -41,10 +41,10 @@ function startUp () {
     <div style={{marginLeft: '155px', marginTop: '15px'}}>
       <TopBar />
     </div>
-    <div className='footer' style={{display:'none'}}>
+    <div className='footer'>
       <BottomBar />
     </div>
-    <div style={{marginLeft: '155px', marginTop: '50px'}}>
+    <div style={{marginLeft: '155px', marginTop: '10px'}}>
       <MainPage />
     </div>
   </div>;
