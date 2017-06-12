@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Popup from 'react-popup';
 import Channel from './Channel';
-import SideBar from './SideBar';
 import TopBar from './TopBar';
 import BottomBar from './BottomBar';
 import MainPage from './MainPage';
@@ -35,18 +34,16 @@ function setChanPage() {
 function startUp () {
   var webApp =
   <div>
-    <div style={{float: 'left', width: '140px', display: 'block', marginTop: '50px'}}>
-      <SideBar />
-    </div>
     <div style={{marginLeft: '155px', marginTop: '15px'}}>
       <TopBar />
+    </div>
+    <div style={{float: 'left', display: 'block', marginTop: '10px', width: '1200px', height: '800px'}}>
+      <MainPage />
     </div>
     <div className='footer'>
       <BottomBar />
     </div>
-    <div style={{marginLeft: '155px', marginTop: '10px'}}>
-      <MainPage />
-    </div>
+
   </div>;
 
 ReactDOM.render(

@@ -38,7 +38,7 @@ class Species extends Component {
 
   render() {
     return (
-      <div style={{display: 'inline-block', minWidth:'900px' }}>
+      <div style={{display: 'inline-block'}}>
       <div style={{float: 'left', marginLeft: '10px', width: '300px'}}>
       <span style={{fontSize: '30px'}}>Species: {this.state.species.Name}</span>
       <br />

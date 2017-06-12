@@ -20,7 +20,7 @@ class Channel extends Component {
       <form onSubmit={this.setChannel.bind(this)}>
         <input className='textinput' style={{textAlign: 'center'}} ref="channel" name="channel" placeholder="Channel Name" /> <br /> <br />
         <div>
-        <button>Enter</button>
+        <button style={{display: 'inline-block'}}>Enter</button>
         </div>
       </form>
         <div style={{paddingTop: '2em'}}>
