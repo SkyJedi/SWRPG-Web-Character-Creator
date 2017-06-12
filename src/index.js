@@ -34,15 +34,16 @@ function setChanPage() {
 function startUp () {
   var webApp =
   <div>
+    <div className='footer'>
+      <BottomBar />
+    </div>
     <div style={{marginLeft: '155px', marginTop: '15px'}}>
       <TopBar />
     </div>
     <div style={{float: 'left', display: 'block', marginTop: '10px', width: '1200px', height: '800px'}}>
       <MainPage />
     </div>
-    <div className='footer'>
-      <BottomBar />
-    </div>
+
 
   </div>;
 

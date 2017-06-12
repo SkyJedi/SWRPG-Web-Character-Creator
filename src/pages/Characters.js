@@ -23,10 +23,9 @@ class Characters extends Component {
   render() {
     return (
       <div>
-      <span style={{marginLeft: '10px'}}>Select a Character</span>
       <div style={{marginTop: '10px'}}>
       <form>
-      <div style={{height: '300px', width: '400px', background: '#F7F7F7', float: 'left', margin: '0 10px 0 10px', border: '10px solid #BDBDBD'}}>
+      <div className='box' style={{height:'400px'}}>
       <ol style={{float: 'left', padding: '0px', margin: '10px 0 10px 0'}}>
       <div style={{float: 'left', margin: '5px 0 2px 5px'}}>
       <span>Character Name</span>
