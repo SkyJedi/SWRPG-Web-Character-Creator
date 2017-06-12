@@ -12,7 +12,7 @@ class Species extends Component {
       super();
       this.state = {
         species: {Key:'Default', Name:'Default', StartingChars:{Brawn:0, Agility:0, Intellect:0, Cunning:0, Willpower:0, Presence:0}, Description:'', StartingAttrs:{WoundThreshold:0, StrainThreshold:0, Experience:0}},
-        speciesRef: firebase.database().ref().child(`${channel}`).child('character').child('species'),
+        speciesRef: firebase.database().ref().child(`${channel}`).child('characters').child('species'),
       };
     }
 
