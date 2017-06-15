@@ -23,7 +23,6 @@ class Characters extends Component {
   render() {
     return (
       <div>
-      <div style={{marginTop: '10px'}}>
       <form>
       <div className='box' style={{height:'400px'}}>
       <ol style={{float: 'left', padding: '0px', margin: '10px 0 10px 0'}}>
@@ -41,7 +40,6 @@ class Characters extends Component {
         <button style={{display: 'block'}}>Remove</button>
       </div>
       </form>
-      </div>
       </div>
     );
   }

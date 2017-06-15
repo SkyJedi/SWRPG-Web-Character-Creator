@@ -1,16 +1,5 @@
 function loadXML(type, file, cb) {
 
-
-
-  /*var origin = window.location.origin;
-  request(`${origin}/Data/${type}/${file}.xml`, function(error, response, body) {
-      var parser = new DOMParser();
-      var doc = parser.parseFromString(body, 'application/xml');
-      Species(doc);
-  });
-}*/
-
-
   var xhttp = new XMLHttpRequest();
   var importXML = {};
   xhttp.onreadystatechange = function() {
@@ -19,23 +8,69 @@ function loadXML(type, file, cb) {
         case 'Species':
           importXML = Species(this.responseXML);
           break;
+        case 'Classes':
+          importXML = Classes(this.responseXML);
+          break;
+        case 'Hooks':
+          importXML = Hooks(this.responseXML);
+          break;
+        case 'className':
+          importXML = getclassNameList(this.responseXML);
+          break;
         default:
           break;
       }
       cb(importXML);
     }
   }
-  xhttp.open('GET', `/Data/${type}/${file}.xml`, true);
+  if (file !== null) xhttp.open('GET', `/Data/${type}/${file}.xml`, true);
+  else xhttp.open('GET', `/Data/${type}.xml`, true);
   xhttp.send();
 }
 
 
+function formatDescription(object) {
+  object['Description'] = object['Description'].replace(/\[H4\]/g, '<h4>').replace(/\[h4\]/g, '</h4> <p>').replace(/\[P\]/g, '</p> <p>').replace(/\[B\]/g, '<b>').replace(/\[b\]/g, '</b>') + '</p>';
+  return object;
+}
+
+function getclassNameList(xmlDoc) {
+}
+
+
+
+function Classes(xmlDoc) {
+  let final = {};
+  let children = ['Key', 'Name', 'Description', 'Source']
+  let x = xmlDoc.getElementsByTagName('Class');
+  for(var i=0; i<x.length; i++) {
+    let key =  x[i].getElementsByTagName('Key')[0].textContent;
+    let childArray = {};
+    for(var j=0; j<children.length; j++) {
+    childArray[children[j]] = x[i].getElementsByTagName(children[j])[0].textContent;
+    }
+    final[key] = formatDescription(childArray);
+  }
+  return final;
+}
+
+function Hooks(xmlDoc) {
+    let final = {};
+    let children = ['Key', 'Name', 'Description', 'Source']
+    let x = xmlDoc.getElementsByTagName('Hook');
+    for(var i=0; i<x.length; i++) {
+      let key =  x[i].getElementsByTagName('Key')[0].textContent;
+      let childArray = {};
+      for(var j=0; j<children.length; j++) {
+      childArray[children[j]] = x[i].getElementsByTagName(children[j])[0].textContent;
+      }
+      final[key] = formatDescription(childArray);
+    }
+    return final;
+}
+
+
 function Species(xmlDoc) {
-/*  var topLevel = ['Key', 'Name', 'Description', 'Sources', 'StartingChars', 'StartingAttrs', 'SkillModifiers', 'TalentModifiers'];
-  var StartingChars = ['Brawn', 'Agility', 'Intellect', 'Cunning', 'Willpower', 'Presence'];
-  var StartingAttrs = ['WoundThreshold', 'StrainThreshold', 'Experience'];
-  var SkillModifiers = {SkillModifier: ['Key', 'RankStart', 'RankLimit']};
-  var TalentModifiers = {TalentModifier: ['Key', 'RankAdd']};*/
   var data = {};
   data['Key'] = xmlDoc.getElementsByTagName('Key')[0].childNodes[0].nodeValue;
   data['Name'] = xmlDoc.getElementsByTagName('Name')[0].childNodes[0].nodeValue;
@@ -59,5 +94,4 @@ function Species(xmlDoc) {
 
 module.exports = {
     loadXML: loadXML,
-    Species: Species,
 };

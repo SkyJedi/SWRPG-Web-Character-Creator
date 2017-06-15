@@ -42,7 +42,7 @@ class Description extends Component {
       </tbody>
       </table>
       <div style={{marginLeft: '500px'}}>
-      <img src={`/Data/SpeciesImages/default.png`}/>
+      <img src={`/Data/SpeciesImages/default.png`} alt=''/>
       <button>Select Image</button>
 
       </div>

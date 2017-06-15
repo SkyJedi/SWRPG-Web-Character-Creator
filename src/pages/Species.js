@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../index.css';
-import * as firebase from 'firebase';
-var channel = window.location.pathname.slice(1).toLowerCase();
 var parser = require('../functions/xmlParser');
 var SpeciesList = require('../functions/xmlNames').Species
 var characteristics = ['Brawn', 'Agility', 'Intellect', 'Cunning', 'Willpower', 'Presence']
@@ -12,26 +10,17 @@ class Species extends Component {
       super();
       this.state = {
         species: {Key:'Default', Name:'Default', StartingChars:{Brawn:0, Agility:0, Intellect:0, Cunning:0, Willpower:0, Presence:0}, Description:'', StartingAttrs:{WoundThreshold:0, StrainThreshold:0, Experience:0}},
-        speciesRef: firebase.database().ref().child(`${channel}`).child('characters').child('species'),
       };
     }
 
   componentDidMount() {
-    this.state.speciesRef.on('value', snap => {
-      if (snap.val() != null) {
-        this.setState({species: snap.val()});
-      } else {
-        let temp = {Key:'Default', Name:'Default', StartingChars:{Brawn:0, Agility:0, Intellect:0, Cunning:0, Willpower:0, Presence:0}, Description:'', StartingAttrs:{WoundThreshold:0, StrainThreshold:0, Experience:0}};
-        this.setState({species: temp});
-      }
-    });
+
   }
 
 
-  selectSpecies() {
+  select() {
     parser.loadXML('Species', this.refs.Species.value, (importXML) => {
       this.setState({species: importXML});
-      console.log(this.state.species.StartingChars);
     });
 
   }
@@ -42,17 +31,17 @@ class Species extends Component {
       <div style={{float: 'left', marginLeft: '10px', width: '300px'}}>
       <span style={{fontSize: '30px'}}>Species: {this.state.species.Name}</span>
       <br />
-      <select style={{float: 'left', margin:'20px 40px 20px 0', fontSize:'20px'}} ref='Species' onChange={this.selectSpecies.bind(this)}>
+      <select style={{float: 'left', margin:'20px 40px 20px 0', fontSize:'20px'}} ref='Species' onChange={this.select.bind(this)}>
         {SpeciesList.map((Species)=>
           <option key={Species}>{Species}</option>
         )}
       </select>
       <br/>
-      <img key={this.state.species.Key} style={{height: '200px', maxWidth: '400px'}} src={`/Data/SpeciesImages/${this.state.species.Key}.png`} alt=''/>
+      <img key={this.state.species.Key} style={{height: '200px', maxWidth: '400px', display: 'block', margin: 'auto'}} src={`/Data/SpeciesImages/${this.state.species.Key}.png`} alt=''/>
       </div>
       <div style={{marginLeft: '330px'}}>
       <div className='navbar'>
-        <div style={{float: 'left', width: '450px'}}>
+        <div style={{float: 'left', width: '480px'}}>
         <h2>Starting Stats</h2>
         {characteristics.map((characteristic)=>
           <div className='stats-box' key={characteristic}>
@@ -65,7 +54,7 @@ class Species extends Component {
       </div>
 
       <div>
-      <span><div style={{fontSize: '20px', width: '450px', maxHeight: '300px', overflow: 'scroll'}} dangerouslySetInnerHTML={{__html: this.state.species.Description}} /></span>
+      <div style={{fontSize: '20px', width: '480px', maxHeight: '300px', overflow: 'scroll'}} dangerouslySetInnerHTML={{__html: this.state.species.Description}} />
       </div>
 
       </div>

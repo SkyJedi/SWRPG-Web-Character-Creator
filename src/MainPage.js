@@ -20,7 +20,7 @@ class MainPage extends Component {
   constructor() {
       super();
       this.state = {
-        displayPage: <Description />,
+        displayPage: <Background />,
         displayPageRef: firebase.database().ref().child(`${channel}`).child('displayPage'),
       };
     }
