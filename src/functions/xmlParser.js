@@ -41,7 +41,7 @@ function getclassNameList(xmlDoc) {
 
 function Classes(xmlDoc) {
   let final = {};
-  let children = ['Key', 'Name', 'Description', 'Source']
+  let children = ['Key', 'Name', 'Description']
   let x = xmlDoc.getElementsByTagName('Class');
   for(var i=0; i<x.length; i++) {
     let key =  x[i].getElementsByTagName('Key')[0].textContent;
@@ -49,9 +49,11 @@ function Classes(xmlDoc) {
     for(var j=0; j<children.length; j++) {
     childArray[children[j]] = x[i].getElementsByTagName(children[j])[0].textContent;
     }
+    childArray['Source'] = x[i].getElementsByTagName('Source')[0].textContent + ' ' +x[i].getElementsByTagName('Source')[0].attributes[0].nodeName + ' ' + x[i].getElementsByTagName('Source')[0].attributes[0].value;
     final[key] = formatDescription(childArray);
   }
   return final;
+
 }
 
 function Hooks(xmlDoc) {
@@ -64,6 +66,7 @@ function Hooks(xmlDoc) {
       for(var j=0; j<children.length; j++) {
       childArray[children[j]] = x[i].getElementsByTagName(children[j])[0].textContent;
       }
+      childArray['Source'] = x[i].getElementsByTagName('Source')[0].textContent + ' ' +x[i].getElementsByTagName('Source')[0].attributes[0].nodeName + ' ' + x[i].getElementsByTagName('Source')[0].attributes[0].value;
       final[key] = formatDescription(childArray);
     }
     return final;
