@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import * as firebase from 'firebase';
 import Characters from './pages/Characters';
 import Description from './pages/Description';
 import Background from './pages/Background';
@@ -12,7 +11,6 @@ import Motivations from './pages/Motivations';
 import Skills from './pages/Skills';
 import Equipment from './pages/Equipment';
 import './index.css';
-var channel = window.location.pathname.slice(1).toLowerCase();
 
 
 class MainPage extends Component {
@@ -20,13 +18,11 @@ class MainPage extends Component {
   constructor() {
       super();
       this.state = {
-        displayPage: <Obligations />,
-        displayPageRef: firebase.database().ref().child(`${channel}`).child('displayPage'),
+        displayPage: <Career />,
       };
     }
 
   setPage(page) {
-    this.state.displayPageRef.set(page);
     switch (page) {
       case 'Characters':
         this.setState({displayPage: <Characters />});

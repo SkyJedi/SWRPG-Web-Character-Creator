@@ -9,35 +9,39 @@ class Species extends Component {
   constructor() {
       super();
       this.state = {
-        species: {Key:'Default', Name:'Default', StartingChars:{Brawn:0, Agility:0, Intellect:0, Cunning:0, Willpower:0, Presence:0}, Description:'', StartingAttrs:{WoundThreshold:0, StrainThreshold:0, Experience:0}},
+        Species: {},
+        selectedSpecies: {Key:'Default', Name:'Default', StartingChars:{Brawn:0, Agility:0, Intellect:0, Cunning:0, Willpower:0, Presence:0}, Description:'', StartingAttrs:{WoundThreshold:0, StrainThreshold:0, Experience:0}},
       };
     }
 
   componentDidMount() {
-
+    var list = {'DEFAULT':{Key:'Default', Name:'Default', StartingChars:{Brawn:0, Agility:0, Intellect:0, Cunning:0, Willpower:0, Presence:0}, Description:'', StartingAttrs:{WoundThreshold:0, StrainThreshold:0, Experience:0}}}
+    SpeciesList.forEach((Species) => {
+      parser.loadXML('Species', Species, (importXML) => {
+        list[importXML.Key]=importXML;
+        this.setState({Species: list});
+      });
+    });
   }
 
 
   select() {
-    parser.loadXML('Species', this.refs.Species.value, (importXML) => {
-      this.setState({species: importXML});
-    });
-
+      this.setState({selectedSpecies: this.state.Species[this.refs.Species.options[this.refs.Species.selectedIndex].id]});
   }
 
   render() {
     return (
       <div style={{display: 'inline-block'}}>
       <div style={{float: 'left', marginLeft: '10px', width: '300px'}}>
-      <span style={{fontSize: '30px'}}>Species: {this.state.species.Name}</span>
+      <span style={{fontSize: '30px'}}>Species: {this.state.selectedSpecies.Name}</span>
       <br />
       <select style={{float: 'left', margin:'20px 40px 20px 0', fontSize:'20px'}} ref='Species' onChange={this.select.bind(this)}>
-        {SpeciesList.map((Species)=>
-          <option key={Species}>{Species}</option>
+        {Object.keys(this.state.Species).map((key)=>
+          <option id={key} key={key}>{this.state.Species[key].Name}</option>
         )}
       </select>
       <br/>
-      <img key={this.state.species.Key} style={{height: '200px', maxWidth: '400px', display: 'block', margin: 'auto'}} src={`/Data/SpeciesImages/${this.state.species.Key}.png`} alt=''/>
+      <img key={this.state.selectedSpecies.Key} style={{height: '200px', maxWidth: '400px', display: 'block', margin: 'auto'}} src={`/Data/SpeciesImages/${this.state.selectedSpecies.Key}.png`} alt=''/>
       </div>
       <div style={{marginLeft: '330px'}}>
       <div className='navbar'>
@@ -46,15 +50,15 @@ class Species extends Component {
         {characteristics.map((characteristic)=>
           <div className='stats-box' key={characteristic}>
           <div className='stats-top-box'><div style={{fontSize:'12px'}}>{characteristic}</div></div>
-          <div className='stats-bottom-box'><div style={{fontSize:'20px', marginTop: '5px'}}>{this.state.species.StartingChars[characteristic]}</div></div>
+          <div className='stats-bottom-box'><div style={{fontSize:'20px', marginTop: '5px'}}>{this.state.selectedSpecies.StartingChars[characteristic]}</div></div>
           </div>
         )}
-      <div><b>Wound Threshold:</b>&nbsp;{this.state.species.StartingAttrs.WoundThreshold}&emsp;<b>Strain Threshold:</b>&nbsp;{this.state.species.StartingAttrs.StrainThreshold}&emsp;<b>Starting XP:</b>&nbsp;{this.state.species.StartingAttrs.Experience}&emsp;</div>
+      <div><b>Wound Threshold:</b>&nbsp;{this.state.selectedSpecies.StartingAttrs.WoundThreshold}&emsp;<b>Strain Threshold:</b>&nbsp;{this.state.selectedSpecies.StartingAttrs.StrainThreshold}&emsp;<b>Starting XP:</b>&nbsp;{this.state.selectedSpecies.StartingAttrs.Experience}&emsp;</div>
       </div>
       </div>
 
       <div>
-      <div style={{fontSize: '20px', width: '480px', maxHeight: '300px', overflow: 'scroll'}} dangerouslySetInnerHTML={{__html: this.state.species.Description}} />
+      <div style={{fontSize: '20px', width: '480px', maxHeight: '300px', overflow: 'scroll'}} dangerouslySetInnerHTML={{__html: this.state.selectedSpecies.Description}} />
       </div>
 
       </div>

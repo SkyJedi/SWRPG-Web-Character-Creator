@@ -17,6 +17,12 @@ function loadXML(type, file, cb) {
         case 'Obligations':
           importXML = masterParse(this.responseXML, 'Obligation');
           break;
+        case 'Careers':
+          importXML = Careers(this.responseXML, 'Careers');
+          break;
+        case 'Specializations':
+          importXML = Specializations(this.responseXML, 'Specializations');
+          break;
         default:
           break;
       }
@@ -66,6 +72,18 @@ function parseSource (xml) {
   return source;
 }
 
+function parseChildren (xml, parent) {
+  let source = [];
+  if (xml.getElementsByTagName(parent)[0] === undefined) return xml.getElementsByTagName(parent)[0].textContent;
+  xml = xml.getElementsByTagName(parent)[0].children
+  if (xml.length > 0) {
+    for (var k=0; k<xml.length; k++) {
+      source.push(xml[k].textContent)
+    }
+  }
+  return source;
+}
+
 function Species(xml) {
   var final = parseBasics(xml);
   final['Source'] = parseSource(xml);
@@ -81,6 +99,22 @@ function Species(xml) {
                             'StrainThreshold': xml.getElementsByTagName('StrainThreshold')[0].childNodes[0].nodeValue,
                             'Experience': xml.getElementsByTagName('Experience')[0].childNodes[0].nodeValue};
 
+  return final;
+}
+
+function Careers(xml) {
+  var final = parseBasics(xml);
+  final['Source'] = parseSource(xml);
+  final['CareerSkills'] = parseChildren(xml, 'CareerSkills');
+  final['Specializations'] = parseChildren(xml, 'Specializations');
+
+  return final;
+}
+
+function Specializations(xml) {
+  var final = parseBasics(xml);
+  final['Source'] = parseSource(xml);
+  final['CareerSkills'] = parseChildren(xml, 'CareerSkills');
   return final;
 }
 
