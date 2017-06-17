@@ -11,15 +11,13 @@ class Obligations extends Component {
       this.state = {
         Obligations: {},
         listObligation: {},
-        selectedObligation: {}
+        selectedObligation: {Description: ''},
       };
     }
 
   componentDidMount() {
     parser.loadXML('Obligations', null, (importXML) => {
       this.setState({Obligations: importXML});
-      this.setState({listObligation: 0});
-      this.setState({selectedObligation: {Description: ''}});
       });
   }
 
@@ -91,7 +89,7 @@ class Obligations extends Component {
         <div className='box' style={{height:'400px'}}>
           <b style={{margin: '5px', padding: '5px', float: 'left'}}>NOTES:</b>
           <textarea ref='Notes' style={{height: '200px', width: '370px', margin: '10px', resize: 'none'}}  />
-          <div style={{fontSize: '20px', width: '98%', maxHeight: '12 0px', overflow: 'auto', margin: '5px'}}  dangerouslySetInnerHTML={{__html: this.state.selectedObligation.Description}}/>
+          <div style={{fontSize: '20px', width: '98%', maxHeight: '30%', overflow: 'auto', margin: '5px'}}  dangerouslySetInnerHTML={{__html: this.state.selectedObligation.Description}}/>
 
         </div>
       </div>

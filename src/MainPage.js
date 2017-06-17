@@ -67,7 +67,7 @@ class MainPage extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{margin: '0 0 200px 0'}}>
         <div style={{float: 'left'}}>
           <button onClick={this.setPage.bind(this, 'Characters')}>Characters</button>
           <button onClick={this.setPage.bind(this, 'Description')}>Description</button>

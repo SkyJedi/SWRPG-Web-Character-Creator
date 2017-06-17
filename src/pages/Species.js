@@ -58,7 +58,7 @@ class Species extends Component {
       </div>
 
       <div>
-      <div style={{fontSize: '20px', width: '480px', maxHeight: '300px', overflow: 'scroll'}} dangerouslySetInnerHTML={{__html: this.state.selectedSpecies.Description}} />
+      <div style={{fontSize: '20px', width: '480px', maxHeight: '530px', overflow: 'scroll'}} dangerouslySetInnerHTML={{__html: this.state.selectedSpecies.Description}} />
       </div>
 
       </div>
