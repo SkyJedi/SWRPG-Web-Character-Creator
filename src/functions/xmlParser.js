@@ -3,25 +3,30 @@ function loadXML(type, file, cb) {
   var xhttp = new XMLHttpRequest();
   var importXML = {};
   xhttp.onreadystatechange = function() {
+    let basics = ['Key', 'Name', 'Description'];
     if (this.readyState === 4 && this.status === 200) {
       switch (type) {
         case 'Species':
-          importXML = Species(this.responseXML);
+          importXML = Species(this.responseXML, basics);
           break;
         case 'Classes':
-          importXML = masterParse(this.responseXML, 'Class');
+          importXML = masterParse(this.responseXML, 'Class', basics);
           break;
         case 'Hooks':
-          importXML = masterParse(this.responseXML, 'Hook');
+          importXML = masterParse(this.responseXML, 'Hook', basics);
           break;
         case 'Obligations':
-          importXML = masterParse(this.responseXML, 'Obligation');
+          importXML = masterParse(this.responseXML, 'Obligation', basics);
           break;
         case 'Careers':
-          importXML = Careers(this.responseXML, 'Careers');
+          importXML = Careers(this.responseXML, basics);
           break;
         case 'Specializations':
-          importXML = Specializations(this.responseXML, 'Specializations');
+          importXML = Specializations(this.responseXML, basics);
+          break;
+        case 'Skills':
+          basics = basics.concat(['CharKey', 'TypeValue'])
+          importXML = masterParse(this.responseXML, 'Skill', basics);
           break;
         default:
           break;
@@ -34,12 +39,12 @@ function loadXML(type, file, cb) {
   xhttp.send();
 }
 
-function masterParse(xmlDoc, type) {
+function masterParse(xmlDoc, type, basics) {
   let final = {};
   let x = xmlDoc.getElementsByTagName(type);
   for(var i=0; i<x.length; i++) {
     let key =  x[i].getElementsByTagName('Key')[0].textContent;
-    let childArray = parseBasics(x[i]);
+    let childArray = parseBasics(x[i], basics);
     childArray['Source'] = parseSource(x[i]);
     final[key] = childArray;
   }
@@ -51,8 +56,7 @@ function formatDescription(object) {
   return object;
 }
 
-function parseBasics(xml) {
-  let basics = ['Key', 'Name', 'Description'];
+function parseBasics(xml, basics) {
   let basicsArray = {};
   for(var j=0; j<basics.length; j++) {
     basicsArray[basics[j]] = xml.getElementsByTagName(basics[j])[0].textContent;
@@ -84,8 +88,8 @@ function parseChildren (xml, parent) {
   return source;
 }
 
-function Species(xml) {
-  var final = parseBasics(xml);
+function Species(xml, basics) {
+  var final = parseBasics(xml, basics);
   final['Source'] = parseSource(xml);
 
   final['StartingChars'] = {'Brawn': xml.getElementsByTagName('Brawn')[0].childNodes[0].nodeValue,
@@ -102,21 +106,21 @@ function Species(xml) {
   return final;
 }
 
-function Careers(xml) {
-  var final = parseBasics(xml);
+function Careers(xml, basics) {
+  var final = parseBasics(xml, basics);
   final['Source'] = parseSource(xml);
   final['CareerSkills'] = parseChildren(xml, 'CareerSkills');
   final['Specializations'] = parseChildren(xml, 'Specializations');
-
   return final;
 }
 
-function Specializations(xml) {
-  var final = parseBasics(xml);
+function Specializations(xml, basics) {
+  var final = parseBasics(xml, basics);
   final['Source'] = parseSource(xml);
   final['CareerSkills'] = parseChildren(xml, 'CareerSkills');
   return final;
 }
+
 
 module.exports = {
     loadXML: loadXML,

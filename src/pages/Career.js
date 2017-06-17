@@ -15,6 +15,7 @@ class Career extends Component {
         Specializations: {},
         careerSpecializations: {},
         selectedSpecialization: {Description: '', CareerSkills: ''},
+        Skills: {},
       };
     }
 
@@ -33,6 +34,9 @@ class Career extends Component {
           this.setState({Specializations: list1});
         });
       });
+      parser.loadXML('Skills', null, (importXML) => {
+        this.setState({Skills: importXML});
+        });
     }
 
   selectCareer() {
@@ -83,7 +87,7 @@ class Career extends Component {
                 <div id="CareerSkills">
                   <ul style={{listStyleType: 'none', float: 'left', margin: '5px'}}>
                     {Object.keys(this.state.selectedCareer.CareerSkills).map((key) =>
-                      <li style={{textAlign: 'left'}} id={this.state.selectedCareer.CareerSkills[key]} key={this.state.selectedCareer.CareerSkills[key]}><input type="checkbox"/>{this.state.selectedCareer.CareerSkills[key]}</li>
+                      <li style={{textAlign: 'left'}} id={this.state.selectedCareer.CareerSkills[key]} key={this.state.selectedCareer.CareerSkills[key]}><input type="checkbox"/>{this.state.Skills[this.state.selectedCareer.CareerSkills[key]].Name}</li>
                     )}
                   </ul>
                 </div>
@@ -93,7 +97,7 @@ class Career extends Component {
                 <div id="CareerSkills">
                   <ul style={{listStyleType: 'none', float: 'left', margin: '5px'}}>
                     {Object.keys(this.state.selectedSpecialization.CareerSkills).map((key) =>
-                      <li style={{textAlign: 'left'}} id={this.state.selectedSpecialization.CareerSkills[key]} key={this.state.selectedSpecialization.CareerSkills[key]}><input type="checkbox"/>{this.state.selectedSpecialization.CareerSkills[key]}</li>
+                      <li style={{textAlign: 'left'}} id={this.state.selectedSpecialization.CareerSkills[key]} key={this.state.selectedSpecialization.CareerSkills[key]}><input type="checkbox"/>{this.state.Skills[this.state.selectedCareer.CareerSkills[key]].Name}</li>
                     )}
                   </ul>
                 </div>
