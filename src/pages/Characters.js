@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import * as firebase from 'firebase';
 var channel = window.location.pathname.slice(1).toLowerCase();
-var parser = require('../functions/xmlParser');
-
 
 class Characters extends Component {
   constructor() {
@@ -20,13 +18,6 @@ class Characters extends Component {
       }
     });
   }
-
-  test() {
-    parser.loadXML('Species', 'Trandoshan', (importXML) => {
-      console.log(importXML);
-    });
-  }
-
 
   render() {
     return (

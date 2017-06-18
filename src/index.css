@@ -34,7 +34,7 @@ td {
   font-size: 20px;
   padding: 2px 0 2px 0;
   width: 250px;
-  border-bottom: 3px solid #757575;
+  //border-bottom: 3px solid #757575;
 
 }
 
@@ -68,6 +68,21 @@ button {
 }
 
 button:hover {
+  background: #9E9E9E;
+  text-decoration: none;
+}
+
+.btnAdd {
+  width: 20px;
+  height: 20px;
+  margin: 15px 5px;
+  padding: 0;
+  text-align: center;
+  padding: 0;
+  font: bold 15px/normal Tahoma, Geneva, sans-serif;
+}
+
+.btnAdd:hover {
   background: #9E9E9E;
   text-decoration: none;
 }
@@ -151,4 +166,14 @@ color: #212121;
   margin: 0px 10px 5px 10px;
   border: 10px solid #BDBDBD;
   padding: 5px;
+}
+
+.box-characteristic {
+  background: #F7F7F7;
+  margin: auto;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 2px;
+  width: 50px;
+  border: 2px solid rgb(189, 189, 189);
 }

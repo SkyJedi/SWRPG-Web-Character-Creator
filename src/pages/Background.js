@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 var parser = require('../functions/xmlParser');
 
-
 class Background extends Component {
-
 
     constructor() {
         super();

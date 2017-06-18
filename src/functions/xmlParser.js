@@ -89,8 +89,6 @@ function parseChildren (xml, parent) {
 }
 
 function parseSpeciesModifers(xml, mod) {
-  console.log(xml.getElementsByTagName(mod))
-
   if (xml.getElementsByTagName(mod)[0] === undefined)  return '';
   else {
     let modXML = xml.getElementsByTagName(mod.slice(0, -1))

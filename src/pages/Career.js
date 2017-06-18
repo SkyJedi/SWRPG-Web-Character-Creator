@@ -3,8 +3,6 @@ var CareerList = require('../functions/xmlNames').Careers
 var SpecializationList = require('../functions/xmlNames').Specializations
 var parser = require('../functions/xmlParser');
 
-
-
 class Career extends Component {
 
   constructor() {

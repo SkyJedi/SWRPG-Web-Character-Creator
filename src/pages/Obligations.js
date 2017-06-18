@@ -3,7 +3,6 @@ var parser = require('../functions/xmlParser');
 import Popup from 'react-popup';
 import '../popup.css';
 
-
 class Obligations extends Component {
 
   constructor() {
@@ -18,7 +17,7 @@ class Obligations extends Component {
   componentDidMount() {
     parser.loadXML('Obligations', null, (importXML) => {
       this.setState({Obligations: importXML});
-      });
+    });
   }
 
 
@@ -67,8 +66,8 @@ class Obligations extends Component {
     return (
       <div>
       <div style={{float:'left', width: '200px'}}>
-      <b style={{margin: '5px', padding: '5px', float: 'left'}}>SELECT OBLIGATION:</b>
         <div className='box' style={{height:'200px', width: '200px'}}>
+          <b style={{margin: '5px', padding: '5px', float: 'left'}}>SELECT OBLIGATION:</b>
         <table>
         <thead>
         <tr><td>Type</td><td>Size</td></tr>
