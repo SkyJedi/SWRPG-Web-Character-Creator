@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../index.css';
-var parser = require('../functions/xmlParser');
-var SpeciesList = require('../functions/xmlNames').Species
+var Data = require('../data.json');
 var characteristics = ['Brawn', 'Agility', 'Intellect', 'Cunning', 'Willpower', 'Presence']
 
 class Species extends Component {
@@ -15,13 +14,8 @@ class Species extends Component {
     }
 
   componentDidMount() {
-    var list = {'DEFAULT':{Key:'Default', Name:'Default', StartingChars:{Brawn:0, Agility:0, Intellect:0, Cunning:0, Willpower:0, Presence:0}, Description:'', StartingAttrs:{WoundThreshold:0, StrainThreshold:0, Experience:0}}}
-    SpeciesList.forEach((Species) => {
-      parser.loadXML('Species', Species, (importXML) => {
-        list[importXML.Key]=importXML;
-        this.setState({Species: list});
-      });
-    });
+    Data.Species.Default = {Key:'Default', Name:'Default', StartingChars:{Brawn:0, Agility:0, Intellect:0, Cunning:0, Willpower:0, Presence:0}, Description:'', StartingAttrs:{WoundThreshold:0, StrainThreshold:0, Experience:0}};
+    this.setState({Species: Data.Species});
   }
 
   select() {

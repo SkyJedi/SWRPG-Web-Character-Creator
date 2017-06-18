@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-var CareerList = require('../functions/xmlNames').Careers
-var SpecializationList = require('../functions/xmlNames').Specializations
+var Data = require('../data.json');
 var parser = require('../functions/xmlParser');
 
 class Career extends Component {
@@ -18,23 +17,11 @@ class Career extends Component {
     }
 
   componentDidMount() {
-      let list = {};
-      CareerList.forEach((Career) => {
-        parser.loadXML('Careers', Career, (importXML) => {
-          list[importXML.Key]=importXML;
-          this.setState({Careers: list});
-        });
-      });
-      let list1 = {}
-      SpecializationList.forEach((Specialization) => {
-        parser.loadXML('Specializations', Specialization, (importXML) => {
-          list1[importXML.Key]=importXML;
-          this.setState({Specializations: list1});
-        });
-      });
-      parser.loadXML('Skills', null, (importXML) => {
-        this.setState({Skills: importXML});
-        });
+    this.setState({Careers: Data.Careers});
+    this.setState({Specializations: Data.Specializations});
+    parser.loadXML('Skills', null, (importXML) => {
+      this.setState({Skills: importXML});
+    });
     }
 
   selectCareer() {

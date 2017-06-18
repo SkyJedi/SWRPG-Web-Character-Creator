@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-var parser = require('../functions/xmlParser');
+var Data = require('../data.json');
 import Popup from 'react-popup';
 import '../popup.css';
 
@@ -15,11 +15,8 @@ class Obligations extends Component {
     }
 
   componentDidMount() {
-    parser.loadXML('Obligations', null, (importXML) => {
-      this.setState({Obligations: importXML});
-    });
+      this.setState({Obligations: Data.Obligations});
   }
-
 
   popupAdd() {
     Popup.create({

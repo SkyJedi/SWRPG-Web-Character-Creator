@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-var parser = require('../functions/xmlParser');
+var Data = require('../data.json');
 
 class Background extends Component {
 
@@ -7,27 +7,21 @@ class Background extends Component {
         super();
         this.state = {
           Classes: {},
-          selectedClass:{},
+          selectedClass:{Description: ''},
           Hooks: {},
-          selectedHook: {}
+          selectedHook:{Description: ''}
         };
       }
 
     componentDidMount() {
-      parser.loadXML('Classes', null, (importXML) => {
-        this.setState({Classes: importXML});
-        this.setState({selectedClass: importXML[Object.keys(importXML)[0]]});
-        });
-
-      parser.loadXML('Hooks', null, (importXML) => {
-        this.setState({Hooks: importXML});
-        this.setState({selectedHook: importXML[Object.keys(importXML)[0]]});
-          });
+        this.setState({Classes: Data.Classes});
+        this.setState({selectedClass: Data.Classes[Object.keys(Data['Classes'])[0]]});
+        this.setState({Hooks: Data.Hooks});
+        this.setState({selectedHook: Data.Hooks[Object.keys(Data['Hooks'])[0]]});
     }
 
     selectClasses() {
       this.setState({selectedClass: this.state.Classes[this.refs.Classes.options[this.refs.Classes.selectedIndex].id]});
-
     }
 
     selectHooks() {
