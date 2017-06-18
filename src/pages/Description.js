@@ -1,6 +1,31 @@
 import React, { Component } from 'react';
+import Popup from 'react-popup';
+import '../popup.css';
 
 class Description extends Component {
+
+  popupImage() {
+    Popup.create({
+    title: 'Modify Character Image',
+    className: 'character',
+    content:
+    <div style={{float: 'left'}}>
+      <div>
+      <b>Image URL:&nbsp;</b>
+        <input className='textinput' id='imageURL' style={{textAlign: 'center', width: '7em'}} /><br/>
+      </div>
+    </div>,
+    buttons: {
+        left: ['cancel'],
+        right: [{
+            text: 'Add',
+            className: 'success',
+            action: () => {
+              Popup.close();
+            }
+        }]
+    }});
+  }
 
   render() {
     return (
@@ -43,7 +68,7 @@ class Description extends Component {
       </table>
       <div style={{marginLeft: '500px'}}>
       <img src={`/Data/SpeciesImages/default.png`} alt=''/>
-      <button>Select Image</button>
+      <button onClick={this.popupImage.bind(this)}>Select Image</button>
 
       </div>
 

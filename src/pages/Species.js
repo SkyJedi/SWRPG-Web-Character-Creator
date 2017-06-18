@@ -24,7 +24,6 @@ class Species extends Component {
     });
   }
 
-
   select() {
       this.setState({selectedSpecies: this.state.Species[this.refs.Species.options[this.refs.Species.selectedIndex].id]});
   }

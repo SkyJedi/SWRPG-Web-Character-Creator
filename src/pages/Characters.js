@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import * as firebase from 'firebase';
 var channel = window.location.pathname.slice(1).toLowerCase();
+var parser = require('../functions/xmlParser');
+
 
 class Characters extends Component {
   constructor() {
@@ -19,10 +21,17 @@ class Characters extends Component {
     });
   }
 
+  test() {
+    parser.loadXML('Species', 'Trandoshan', (importXML) => {
+      console.log(importXML);
+    });
+  }
+
 
   render() {
     return (
       <div>
+        <button onClick={this.test.bind(this)} />
       <form>
       <div className='box' style={{height:'400px'}}>
       <ol style={{float: 'left', padding: '0px', margin: '10px 0 10px 0'}}>

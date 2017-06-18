@@ -88,6 +88,24 @@ function parseChildren (xml, parent) {
   return source;
 }
 
+function parseSpeciesModifers(xml, mod) {
+  console.log(xml.getElementsByTagName(mod))
+
+  if (xml.getElementsByTagName(mod)[0] === undefined)  return '';
+  else {
+    let modXML = xml.getElementsByTagName(mod.slice(0, -1))
+    let Modifiers = [];
+    for (var i=0; i<modXML.length; i++) {
+      let Modifier = {};
+      for (var j=0; j<modXML[i].children.length; j++) {
+        Modifier[modXML[i].children[j].tagName] = modXML[i].children[j].textContent;
+      }
+      Modifiers.push(Modifier);
+    }
+  return Modifiers;
+  }
+}
+
 function Species(xml, basics) {
   var final = parseBasics(xml, basics);
   final['Source'] = parseSource(xml);
@@ -103,6 +121,9 @@ function Species(xml, basics) {
                             'StrainThreshold': xml.getElementsByTagName('StrainThreshold')[0].childNodes[0].nodeValue,
                             'Experience': xml.getElementsByTagName('Experience')[0].childNodes[0].nodeValue};
 
+  final['SkillModifiers'] = parseSpeciesModifers(xml, 'SkillModifiers');
+  final['TalentModifers'] = parseSpeciesModifers(xml, 'TalentModifiers');
+  final['WeaponModifers'] = parseSpeciesModifers(xml, 'WeaponModifiers');
   return final;
 }
 
@@ -120,7 +141,6 @@ function Specializations(xml, basics) {
   final['CareerSkills'] = parseChildren(xml, 'CareerSkills');
   return final;
 }
-
 
 module.exports = {
     loadXML: loadXML,
