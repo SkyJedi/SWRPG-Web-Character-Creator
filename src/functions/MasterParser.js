@@ -1,6 +1,6 @@
 import * as firebase from 'firebase';
-var List = require('./functions/xmlNames');
-var parser = require('./functions/xmlParser');
+var List = require('./xmlNames');
+var parser = require('./xmlParser');
 
 function Build() {
   parser.loadXML('Classes', null, (importXML) => {
