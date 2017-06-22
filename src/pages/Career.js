@@ -1,27 +1,21 @@
 import React, { Component } from 'react';
 var Data = require('../data.json');
-var parser = require('../functions/xmlParser');
 
 class Career extends Component {
 
   constructor() {
       super();
       this.state = {
-        Careers: {},
+        Careers: Data.Careers,
         selectedCareer: {Description: '', CareerSkills: ''},
-        Specializations: {},
+        Specializations: Data.Specializations,
         careerSpecializations: {},
         selectedSpecialization: {Description: '', CareerSkills: ''},
-        Skills: {},
+        Skills: Data.Skills,
       };
     }
 
   componentDidMount() {
-    this.setState({Careers: Data.Careers});
-    this.setState({Specializations: Data.Specializations});
-    parser.loadXML('Skills', null, (importXML) => {
-      this.setState({Skills: importXML});
-    });
     }
 
   selectCareer() {

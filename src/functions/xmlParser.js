@@ -28,6 +28,10 @@ function loadXML(type, file, cb) {
           basics = basics.concat(['CharKey', 'TypeValue'])
           importXML = masterParse(this.responseXML, 'Skill', basics);
           break;
+        case 'Talents':
+          basics = basics.concat(['Ranked', 'ActivationValue'])
+          importXML = masterParse(this.responseXML, 'Talent', basics);
+          break;
         default:
           break;
       }
@@ -70,7 +74,7 @@ function parseSource (xml) {
   xml = xml.getElementsByTagName('Source')
   if (xml.length > 0) {
     for (var k=0; k<xml.length; k++) {
-    source.push(xml[0].textContent + ' ' +xml[0].attributes[0].nodeName + ' ' + xml[0].attributes[0].value);
+    source.push(xml[k].textContent + ' ' +xml[k].attributes[0].nodeName + ' ' + xml[k].attributes[0].value);
     }
   }
   return source;
@@ -137,28 +141,33 @@ function Specializations(xml, basics) {
   var final = parseBasics(xml, basics);
   final['Source'] = (xml.getElementsByTagName('Source')[0].textContent + ' ' +xml.getElementsByTagName('Source')[0].attributes[0].nodeName + ' ' + xml.getElementsByTagName('Source')[0].attributes[0].value)
   final['CareerSkills'] = parseChildren(xml, 'CareerSkills');
-  final['TalentRows'] = {};
+  final['Talents'] = {};
   let TalentRowsXML = xml.getElementsByTagName('TalentRows')[0].children;
   for (var i=0; i<TalentRowsXML.length; i++) {
-      let TalentRow = {};
-      console.log(TalentRowsXML[i].getElementsByTagName('Cost')[0].textContent)
-      TalentRow['Index'] = i;
-      TalentRow['Cost'] = +TalentRowsXML[i].getElementsByTagName('Cost')[0].textContent;
-      TalentRow['Talents'] = parseChildren(TalentRowsXML[i], 'Talents');
-      let DirectionXML = TalentRowsXML[i].getElementsByTagName('Direction')
-      let Direction = {};
-      for (var j=0; j<DirectionXML.length; j++) {
-        Direction[j] = {};
-        let list = ['Up', 'Left', 'Down', 'Right']
-        for (var k=0; k<list.length; k++) {
-          if (DirectionXML[j].getElementsByTagName(list[k]).length === 0) {Direction[j][list[k]] = false;}
-          else if  (DirectionXML[j].getElementsByTagName(list[k])[0].textContent === 'false') {Direction[j][list[k]] = false;}
-          else if  (DirectionXML[j].getElementsByTagName(list[k])[0].textContent === 'true') {Direction[j][list[k]] = true;}
+    //build talents
+      let TalentsXML = TalentRowsXML[i].getElementsByTagName('Talents')[0].children;
+      let Talents = {};
+      Talents['Talents'] = {};
+      if (TalentsXML.length > 0) {
+        for (var l=0; l<TalentsXML.length; l++) {
+          let Talent = {};
+          Talent.Key = TalentsXML[l].textContent;
+          Talent.isChecked = false;
+          Talent.Cost = +TalentRowsXML[i].getElementsByTagName('Cost')[0].textContent;
+          let DirectionXML = TalentRowsXML[i].getElementsByTagName('Direction');
+          let Direction = {};
+          let list = ['Up', 'Left', 'Down', 'Right']
+          for (var k=0; k<list.length; k++) {
+            if (DirectionXML[l].getElementsByTagName(list[k]).length === 0) {Direction[list[k]] = false;}
+            else if  (DirectionXML[l].getElementsByTagName(list[k])[0].textContent === 'false') {Direction[list[k]] = false;}
+            else if  (DirectionXML[l].getElementsByTagName(list[k])[0].textContent === 'true') {Direction[list[k]] = true;}
+          }
+          Talent.Direction = Direction;
+          Talents[`col${l+1}`] = Talent;
         }
-        TalentRow['Directions'] = Direction;
       }
-    final['TalentRows'][i] = TalentRow;
-  }
+      final.Talents[`row${i+1}`] = Talents;
+    }
   return final;
 }
 

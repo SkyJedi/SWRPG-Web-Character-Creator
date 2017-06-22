@@ -15,6 +15,14 @@ function Build() {
     firebase.database().ref().child('master').child('Obligations').set(importXML);
   });
 
+  parser.loadXML('Skills', null, (importXML) => {
+    firebase.database().ref().child('master').child('Skills').set(importXML);
+  });
+
+  parser.loadXML('Talents', null, (importXML) => {
+    firebase.database().ref().child('master').child('Talents').set(importXML);
+  });
+
   let listCareer = {};
   List.Careers.forEach((Career) => {
     parser.loadXML('Careers', Career, (importXML) => {
