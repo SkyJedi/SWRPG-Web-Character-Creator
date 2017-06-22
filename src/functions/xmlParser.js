@@ -77,15 +77,15 @@ function parseSource (xml) {
 }
 
 function parseChildren (xml, parent) {
-  let source = [];
+  let children = [];
   if (xml.getElementsByTagName(parent)[0] === undefined) return xml.getElementsByTagName(parent)[0].textContent;
   xml = xml.getElementsByTagName(parent)[0].children
   if (xml.length > 0) {
     for (var k=0; k<xml.length; k++) {
-      source.push(xml[k].textContent)
+      children.push(xml[k].textContent)
     }
   }
-  return source;
+  return children;
 }
 
 function parseSpeciesModifers(xml, mod) {
@@ -135,8 +135,30 @@ function Careers(xml, basics) {
 
 function Specializations(xml, basics) {
   var final = parseBasics(xml, basics);
-  final['Source'] = parseSource(xml);
+  final['Source'] = (xml.getElementsByTagName('Source')[0].textContent + ' ' +xml.getElementsByTagName('Source')[0].attributes[0].nodeName + ' ' + xml.getElementsByTagName('Source')[0].attributes[0].value)
   final['CareerSkills'] = parseChildren(xml, 'CareerSkills');
+  final['TalentRows'] = {};
+  let TalentRowsXML = xml.getElementsByTagName('TalentRows')[0].children;
+  for (var i=0; i<TalentRowsXML.length; i++) {
+      let TalentRow = {};
+      console.log(TalentRowsXML[i].getElementsByTagName('Cost')[0].textContent)
+      TalentRow['Index'] = i;
+      TalentRow['Cost'] = +TalentRowsXML[i].getElementsByTagName('Cost')[0].textContent;
+      TalentRow['Talents'] = parseChildren(TalentRowsXML[i], 'Talents');
+      let DirectionXML = TalentRowsXML[i].getElementsByTagName('Direction')
+      let Direction = {};
+      for (var j=0; j<DirectionXML.length; j++) {
+        Direction[j] = {};
+        let list = ['Up', 'Left', 'Down', 'Right']
+        for (var k=0; k<list.length; k++) {
+          if (DirectionXML[j].getElementsByTagName(list[k]).length === 0) {Direction[j][list[k]] = false;}
+          else if  (DirectionXML[j].getElementsByTagName(list[k])[0].textContent === 'false') {Direction[j][list[k]] = false;}
+          else if  (DirectionXML[j].getElementsByTagName(list[k])[0].textContent === 'true') {Direction[j][list[k]] = true;}
+        }
+        TalentRow['Directions'] = Direction;
+      }
+    final['TalentRows'][i] = TalentRow;
+  }
   return final;
 }
 

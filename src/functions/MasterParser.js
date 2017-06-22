@@ -15,26 +15,27 @@ function Build() {
     firebase.database().ref().child('master').child('Obligations').set(importXML);
   });
 
-  let list = {};
+  let listCareer = {};
   List.Careers.forEach((Career) => {
     parser.loadXML('Careers', Career, (importXML) => {
-      list[importXML.Key]=importXML;
-      firebase.database().ref().child('master').child('Careers').set(list);
+      listCareer[importXML.Key]=importXML;
+      firebase.database().ref().child('master').child('Careers').set(listCareer);
     });
   });
 
-  let list1 = {}
+  let listSpecializations = {};
   List.Specializations.forEach((Specialization) => {
     parser.loadXML('Specializations', Specialization, (importXML) => {
-      list1[importXML.Key]=importXML;
-      firebase.database().ref().child('master').child('Specializations').set(list1);
+      listSpecializations[importXML.Key]=importXML;
+      firebase.database().ref().child('master').child('Specializations').set(listSpecializations);
     });
   });
 
+  let listSpecies = {};
   List.Species.forEach((Species) => {
     parser.loadXML('Species', Species, (importXML) => {
-      list[importXML.Key]=importXML;
-      firebase.database().ref().child('master').child('Species').set(list);
+      listSpecies[importXML.Key]=importXML;
+      firebase.database().ref().child('master').child('Species').set(listSpecies);
     });
   });
 }
