@@ -24,7 +24,7 @@ class Specializations extends Component {
     let selectedSpecialization = Object.assign({}, this.state.selectedSpecialization);
     selectedSpecialization.Talents[row][col].isChecked = !selectedSpecialization.Talents[row][col].isChecked;
     selectedSpecialization = this.checkDisabled(selectedSpecialization);
-    this.setState({selectedSpecialization: selectedSpecialization})
+    if (selectedSpecialization !== 0) this.setState({selectedSpecialization: selectedSpecialization});
   }
 
   topConnector(row, col) {
@@ -55,8 +55,9 @@ class Specializations extends Component {
           selectedSpecialization.Talents[rows[i]][cols[j]].isDisabled = false;
         } else if (selectedSpecialization.Talents[rows[i]][cols[j]].Direction.Right === true && selectedSpecialization.Talents[rows[i]][cols[j-1]].isChecked === true) {
           selectedSpecialization.Talents[rows[i]][cols[j]].isDisabled = false;
+        } else if (selectedSpecialization.Talents[rows[i]][cols[j]].isDisabled === true && selectedSpecialization.Talents[rows[i]][cols[j]].isChecked === true) {
+          return 0;
         }
-
       }
     }
     return selectedSpecialization;
