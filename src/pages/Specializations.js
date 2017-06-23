@@ -22,8 +22,8 @@ class Specializations extends Component {
 
   toggleCheckbox(row, col) {
     let selectedSpecialization = Object.assign({}, this.state.selectedSpecialization);
-    console.log(row + col)
     selectedSpecialization.Talents[row][col].isChecked = !selectedSpecialization.Talents[row][col].isChecked;
+    selectedSpecialization = this.checkDisabled(selectedSpecialization);
     this.setState({selectedSpecialization: selectedSpecialization})
   }
 
@@ -38,8 +38,28 @@ class Specializations extends Component {
     let background = '';
     if (col === 'col4') background = 'transparent';
     else if (this.state.selectedSpecialization.Talents[row][col].Direction.Right === true) background = 'black';
-
     return background;
+  }
+
+  checkDisabled(selectedSpecialization) {
+    let rows = ['row5', 'row4', 'row3', 'row2', 'row1'];
+    let cols = ['col4', 'col3', 'col2', 'col1'];
+    for (var i=0; i<rows.length; i++) {
+      for (var j=0; j<cols.length; j++) {
+        if (rows[i] !== 'row1') selectedSpecialization.Talents[rows[i]][cols[j]].isDisabled = true;
+        if (selectedSpecialization.Talents[rows[i]][cols[j]].Direction.Up === true && selectedSpecialization.Talents[rows[i+1]][cols[j]].isChecked === true) {
+          selectedSpecialization.Talents[rows[i]][cols[j]].isDisabled = false;
+        } else if (selectedSpecialization.Talents[rows[i]][cols[j]].Direction.Down === true && selectedSpecialization.Talents[rows[i-1]][cols[j]].isChecked === true) {
+          selectedSpecialization.Talents[rows[i]][cols[j]].isDisabled = false;
+        } else if (selectedSpecialization.Talents[rows[i]][cols[j]].Direction.Left === true && selectedSpecialization.Talents[rows[i]][cols[j+1]].isChecked === true) {
+          selectedSpecialization.Talents[rows[i]][cols[j]].isDisabled = false;
+        } else if (selectedSpecialization.Talents[rows[i]][cols[j]].Direction.Right === true && selectedSpecialization.Talents[rows[i]][cols[j-1]].isChecked === true) {
+          selectedSpecialization.Talents[rows[i]][cols[j]].isDisabled = false;
+        }
+
+      }
+    }
+    return selectedSpecialization;
   }
 
   render() {
@@ -65,7 +85,7 @@ class Specializations extends Component {
               {Object.keys(this.state.selectedSpecialization.Talents[row]).map((col)=>
                 <div key={col}>
                   <div className='box' style={{height:'100px', width: '150px', margin: '0px'}}>
-                    <input type='checkbox' ref={row + col} checked={this.state.selectedSpecialization.Talents[row][col].isChecked} onChange={this.toggleCheckbox.bind(this, row, col)} />
+                    <input type='checkbox' ref={row + col} checked={this.state.selectedSpecialization.Talents[row][col].isChecked} disabled={this.state.selectedSpecialization.Talents[row][col].isDisabled} onChange={this.toggleCheckbox.bind(this, row, col)} />
                     <label style={{fontSize:'12px'}}>{this.state.Talents[this.state.selectedSpecialization.Talents[row][col].Key].Name}</label>
                     <div style={{fontSize: '10px', width: '98%', height: '60%', overflow: 'auto', margin: '5px'}} dangerouslySetInnerHTML={{__html: this.state.Talents[this.state.selectedSpecialization.Talents[row][col].Key].Description}}></div>
                     <div style={{bottom: '0', float: 'right'}}><b>Cost: {this.state.selectedSpecialization.Talents[row][col].Cost}</b></div>
@@ -75,13 +95,6 @@ class Specializations extends Component {
               )}
             </div>
           )}
-
-
-
-
-
-
-
         </div>
       </div>
     );

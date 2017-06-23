@@ -153,6 +153,8 @@ function Specializations(xml, basics) {
           let Talent = {};
           Talent.Key = TalentsXML[l].textContent;
           Talent.isChecked = false;
+          if (i === 0) Talent.isDisabled = false;
+          else Talent.isDisabled = true;
           Talent.Cost = +TalentRowsXML[i].getElementsByTagName('Cost')[0].textContent;
           let DirectionXML = TalentRowsXML[i].getElementsByTagName('Direction');
           let Direction = {};
