@@ -41,6 +41,12 @@ class Specializations extends Component {
     return background;
   }
 
+  talentActivation(key) {
+    let color = '#b71c1c'
+    if (this.state.Talents[key].ActivationValue === "taPassive") color = '#0d47a1'
+    return color;
+  }
+
   checkDisabled(selectedSpecialization) {
     let rows = ['row5', 'row4', 'row3', 'row2', 'row1'];
     let cols = ['col4', 'col3', 'col2', 'col1'];
@@ -85,7 +91,7 @@ class Specializations extends Component {
               <div style={{verticalAlign: 'bottom', width:'30px', height: '30px', background: this.topConnector(row, 'col4'), marginLeft: '170px', display: 'inline-block'}}></div>
               {Object.keys(this.state.selectedSpecialization.Talents[row]).map((col)=>
                 <div key={col}>
-                  <div className='box' style={{height:'100px', width: '150px', margin: '0px'}}>
+                  <div className='box' style={{height:'100px', width: '150px', margin: '0px', borderColor: this.talentActivation(this.state.selectedSpecialization.Talents[row][col].Key)}}>
                     <input type='checkbox' ref={row + col} checked={this.state.selectedSpecialization.Talents[row][col].isChecked} disabled={this.state.selectedSpecialization.Talents[row][col].isDisabled} onChange={this.toggleCheckbox.bind(this, row, col)} />
                     <label style={{fontSize:'12px'}}>{this.state.Talents[this.state.selectedSpecialization.Talents[row][col].Key].Name}</label>
                     <div style={{fontSize: '10px', width: '98%', height: '60%', overflow: 'auto', margin: '5px'}} dangerouslySetInnerHTML={{__html: this.state.Talents[this.state.selectedSpecialization.Talents[row][col].Key].Description}}></div>
