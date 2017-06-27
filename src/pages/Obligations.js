@@ -8,14 +8,13 @@ class Obligations extends Component {
   constructor() {
       super();
       this.state = {
-        Obligations: {},
+        Obligations: Data.Obligations,
         listObligation: {},
         selectedObligation: {Description: ''},
       };
     }
 
   componentDidMount() {
-      this.setState({Obligations: Data.Obligations});
   }
 
   popupAdd() {

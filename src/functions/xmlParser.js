@@ -32,6 +32,13 @@ function loadXML(type, file, cb) {
           basics = basics.concat(['Ranked', 'ActivationValue'])
           importXML = masterParse(this.responseXML, 'Talent', basics);
           break;
+        case 'Motivations':
+          importXML = Motivations(this.responseXML, basics);
+          break;
+        case 'SpecificMotivations':
+          basics = basics.concat(['Motivation'])
+          importXML = masterParse(this.responseXML, 'SpecificMotivation', basics);
+          break;
         default:
           break;
       }
@@ -171,6 +178,20 @@ function Specializations(xml, basics) {
       final.Talents[`row${i+1}`] = Talents;
     }
   return final;
+}
+
+function Motivations (xml, basics) {
+  let final = {};
+  let x = xml.getElementsByTagName('Motivation');
+  for(var i=0; i<x.length; i++) {
+    let key =  x[i].getElementsByTagName('Key')[0].textContent;
+    let childArray = parseBasics(x[i], basics);
+    childArray['Source'] = parseSource(x[i]);
+    childArray['SpecificMotivations'] = parseChildren(x[i], 'SpecificMotivations')
+    final[key] = childArray;
+  }
+  return final;
+
 }
 
 module.exports = {

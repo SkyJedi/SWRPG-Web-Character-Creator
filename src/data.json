@@ -623,6 +623,197 @@
       "Source" : "Dangerous Covenants"
     }
   },
+  "Motivations" : {
+    "AMB" : {
+      "Description" : "\n      <h4>Ambition</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook, or page 105 of the Force and Destiny Core Rulebook, for details.\n    </p>",
+      "Key" : "AMB",
+      "Name" : "Ambition",
+      "Source" : [ "Edge of the Empire Core Rulebook Page 95", "Force and Destiny Core Rulebook Page 105" ],
+      "SpecificMotivations" : [ "AMBFRIEND", "AMBLOVE", "AMBFREE", "AMBFAME", "AMBGREED", "AMBSTATUS", "AMBEXPER", "AMBWAND", "AMBPOWER", "AMBRELIGION", "AMBREVENGE", "AMBWEALTH", "AMBJEDI", "AMBSURVIVAL", "AMBGLORY", "AMBSITH", "AMBENLIGHT", "AMBDISC" ]
+    },
+    "BELIEF" : {
+      "Description" : "\n\t\t<h4>Belief</h4> <p>\n    Please see page 105 of the Age of Rebellion Core Rulebook for details.\n\t  </p>",
+      "Key" : "BELIEF",
+      "Name" : "Belief",
+      "Source" : "Age of Rebellion Core Rulebook",
+      "SpecificMotivations" : [ "BELREPUBLIC", "BELHONOR", "BELFREEENT", "BELTHEJEDI", "BELJUSTICE", "BELSPRIGHTS", "BELPEACE", "BELRELPHIL", "BELLIBERTY", "BELFREE", "BELORDER", "BELPROGRESS", "BELFORCE", "BELCRIME" ]
+    },
+    "CAUSE" : {
+      "Description" : "\n      <h4>Cause</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook, or page 105 of the Force and Destiny Core Rulebook, for details.\n    </p>",
+      "Key" : "CAUSE",
+      "Name" : "Cause",
+      "Source" : [ "Edge of the Empire Core Rulebook Page 96", "Force and Destiny Core Rulebook Page 105" ],
+      "SpecificMotivations" : [ "CAURELIGION", "CAUWEAK", "CAUNONHUM", "CAUPOLITICS", "CAUOVER", "CAUCRIME", "CAUEMANC", "CAUDROID", "CAUCAPITAL", "CAUEMPIRE", "CAUFREEDOM", "CAURESTJEDI", "CAUPEACE", "CAUJUSTICE", "CAUSTOPREB", "CAUEQUAL", "CAUHELPLESS", "CAUFREEENT", "CAUKNOW" ]
+    },
+    "CODE" : {
+      "Description" : "\n      <h4>Code</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODE",
+      "Name" : "Code",
+      "Source" : "No Disintegrations",
+      "SpecificMotivations" : [ "CODEPAID", "CODEFINISH", "CODELIVE", "CODENEVER", "CODECOLL", "CODEQUIET", "CODEREP", "CODERULE", "CODESURV", "CODESCORE" ]
+    },
+    "CONFLICT" : {
+      "Description" : "\n      <h4>Conflict</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT",
+      "Name" : "Conflict",
+      "Source" : [ "Dangerous Covenants Page 34", "Stay on Target Page 34" ],
+      "SpecificMotivations" : [ "CONFLICT1", "CONFLICT2", "CONFLICT3", "CONFLICT4", "CONFLICT5", "CONFLICT6", "CONFLICT7", "CONFLICT8", "CONFLICT9", "CONFLICT10", "CONFLICT11", "CONFLICT12", "CONFLICT13", "CONFLICT14" ]
+    },
+    "CONNECT" : {
+      "Description" : "\n      <h4>Connections</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONNECT",
+      "Name" : "Connections",
+      "Source" : "Age of Rebellion Core Rulebook",
+      "SpecificMotivations" : [ "CONPOLITICAL", "CONFAMILY", "CONMILITARY", "CONINTEL", "CONFRIENDS", "CONUNDERWORLD", "CONECON", "CONRIVAL", "CONNOONE", "CONRESCUE", "CONEMPIRE", "CONLOVE" ]
+    },
+    "CREATION" : {
+      "Description" : "\n      <h4>Creations</h4> <p>\n      Please see page 34 of the Far Horizons Sourcebook for details.\n    </p>",
+      "Key" : "CREATION",
+      "Name" : "Creations",
+      "Source" : "Far Horizons",
+      "SpecificMotivations" : [ "CREATIONSM1", "CREATIONSM2", "CREATIONSM3", "CREATIONSM4", "CREATIONSM5", "CREATIONSM6", "CREATIONSM7", "CREATIONSM8" ]
+    },
+    "CREED" : {
+      "Description" : "\n      <h4>Creed</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREED",
+      "Name" : "Creed",
+      "Source" : "Desperate Allies",
+      "SpecificMotivations" : [ "CREEDSM1", "CREEDSM2", "CREEDSM3", "CREEDSM4", "CREEDSM5", "CREEDSM6", "CREEDSM7", "CREEDSM8", "CREEDSM9", "CREEDSM10" ]
+    },
+    "DISCOVERY" : {
+      "Description" : "\n      <h4>Discovery</h4> <p>\n      Please see page 31 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERY",
+      "Name" : "Discovery",
+      "Source" : "Enter the Unknown",
+      "SpecificMotivations" : [ "DISCOVERYSM1", "DISCOVERYSM2", "DISCOVERYSM3", "DISCOVERYSM4", "DISCOVERYSM5", "DISCOVERYSM6", "DISCOVERYSM7", "DISCOVERYSM8", "DISCOVERYSM9", "DISCOVERYSM10" ]
+    },
+    "DRIVE" : {
+      "Description" : "\n      <h4>Drive</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVE",
+      "Name" : "Drive",
+      "Source" : "Lead by Example",
+      "SpecificMotivations" : [ "DRIVEGUILT", "DRIVEMISSION", "DRIVEALLCOSTS", "DRIVECOMMAND", "DRIVESUBORD", "DRIVEREDEMP", "DRIVEGAME", "DRIVEEGO", "DRIVERETIRE", "DRIVESPIRIT" ]
+    },
+    "FAITH" : {
+      "Description" : "\n      <h4>Faith</h4> <p>\n      Please see page 105 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAITH",
+      "Name" : "Faith",
+      "Source" : "Force and Destiny Core Rulebook",
+      "SpecificMotivations" : [ "FAINAT", "FAIGOODPEOP", "FAIFRIENDFAM", "FAICOSMICFOR", "FAISCIENCE", "FAIJEDICODE", "FAIIMPRULE", "FAIREBELLION", "FAIRELCODE", "FAINOTHING" ]
+    },
+    "INJUSTICE" : {
+      "Description" : "\n      <h4>Injustice</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE",
+      "Name" : "Injustice",
+      "Source" : "Endless Vigil",
+      "SpecificMotivations" : [ "INJUSTICE1", "INJUSTICE2", "INJUSTICE3", "INJUSTICE4", "INJUSTICE5", "INJUSTICE6", "INJUSTICE7", "INJUSTICE8", "INJUSTICE9", "INJUSTICE10" ]
+    },
+    "INNOV" : {
+      "Description" : "\n      <h4>Innovation</h4> <p>\n      Please see page 36 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOV",
+      "Name" : "Innovation",
+      "Source" : "Special Modifications",
+      "SpecificMotivations" : [ "INNOVFAB", "INNOVINV", "INNOVMOD", "INNOVIMP", "INNOVWASTE", "INNOVTECHFASC", "INNOVTECHBUS", "INNOVTECHHIST", "INNOVTECHNECESS", "INNOVTECHRIVAL" ]
+    },
+    "LOCALEEN" : {
+      "Description" : "\n      <h4>Location: Aleen</h4> <p>\n      Please see page 114 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCALEEN",
+      "Name" : "Location: Aleen",
+      "Source" : "Nexus of Power",
+      "SpecificMotivations" : [ "LOCALEENENAM", "LOCALEENFOLL" ]
+    },
+    "LOCAURA" : {
+      "Description" : "\n      <h4>Location: Auratera</h4> <p>\n      Please see page 114 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCAURA",
+      "Name" : "Location: Auratera",
+      "Source" : "Nexus of Power",
+      "SpecificMotivations" : [ "LOCAURAISO", "LOCAURASTUD" ]
+    },
+    "LOCBARD" : {
+      "Description" : "\n      <h4>Location: Bardotta</h4> <p>\n      Please see page 114 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCBARD",
+      "Name" : "Location: Bardotta",
+      "Source" : "Nexus of Power",
+      "SpecificMotivations" : [ "LOCBARDPRES", "LOCBARDMEND", "LOCBARDFRANG" ]
+    },
+    "LOCDEV" : {
+      "Description" : "\n      <h4>Location: Devaron</h4> <p>\n      Please see page 114 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCDEV",
+      "Name" : "Location: Devaron",
+      "Source" : "Nexus of Power",
+      "SpecificMotivations" : [ "LOCDEVMAT" ]
+    },
+    "LOCIKTO" : {
+      "Description" : "\n      <h4>Location: Iktotch</h4> <p>\n      Please see page 114 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCIKTO",
+      "Name" : "Location: Iktotch",
+      "Source" : "Nexus of Power",
+      "SpecificMotivations" : [ "LOCIKTOVIS", "LOCIKTOEXILE", "LOCIKTOCOLLAB" ]
+    },
+    "LOCLOTH" : {
+      "Description" : "\n      <h4>Location: Lothal</h4> <p>\n      Please see page 114 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCLOTH",
+      "Name" : "Location: Lothal",
+      "Source" : "Nexus of Power",
+      "SpecificMotivations" : [ "LOCLOTHUPPOV", "LOCLOTHREV", "LOCLOTHWARPROF" ]
+    },
+    "LOCNABOO" : {
+      "Description" : "\n      <h4>Location: Naboo</h4> <p>\n      Please see page 114 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCNABOO",
+      "Name" : "Location: Naboo",
+      "Source" : "Nexus of Power",
+      "SpecificMotivations" : [ "LOCNABOOENVOY", "LOCNABOOPOET", "LOCNABOOGUNG" ]
+    },
+    "LOCOSSUS" : {
+      "Description" : "\n      <h4>Location: Ossus</h4> <p>\n      Please see page 114 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCOSSUS",
+      "Name" : "Location: Ossus",
+      "Source" : "Nexus of Power",
+      "SpecificMotivations" : [ "LOCOSSUSARCH", "LOCOSSUSPLUND" ]
+    },
+    "LOCWEIK" : {
+      "Description" : "\n      <h4>Location: Weik</h4> <p>\n      Please see page 114 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCWEIK",
+      "Name" : "Location: Weik",
+      "Source" : "Nexus of Power",
+      "SpecificMotivations" : [ "LOCWEIKFORREV", "LOCWEIKCAST", "LOCWEIKWIDE" ]
+    },
+    "OATH" : {
+      "Description" : "\n      <h4>Oath</h4> <p>\n      Please see page 32 of the Keeping the Peace Sourcebook for details.\n    </p>",
+      "Key" : "OATH",
+      "Name" : "Oath",
+      "Source" : "Keeping the Peace",
+      "SpecificMotivations" : [ "OATHJUSTICE", "OATHLEGACY", "OATHLIFE", "OATHREPUB", "OATHBALANCE", "OATHLOVE", "OATHHOME", "OATHDEPART", "OATHSPECIES", "OATHWARD" ]
+    },
+    "PURSUIT" : {
+      "Description" : "\n      <h4>Pursuit</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT",
+      "Name" : "Pursuit",
+      "Source" : "Savage Spirits",
+      "SpecificMotivations" : [ "PURSUIT1", "PURSUIT2", "PURSUIT3", "PURSUIT4", "PURSUIT5", "PURSUIT6", "PURSUIT7", "PURSUIT8", "PURSUIT9", "PURSUIT10" ]
+    },
+    "QUEST" : {
+      "Description" : "\n      <h4>Quest</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUEST",
+      "Name" : "Quest",
+      "Source" : "Age of Rebellion Core Rulebook",
+      "SpecificMotivations" : [ "QUEREDEM", "QUEGLORY", "QUEVENG", "QUEINFLU", "QUERESCUE", "QUEJEDI", "QUEFREEDOM", "QUETREAS", "QUETHRILL", "QUEPURPOSE", "QUERICHES", "QUESITH" ]
+    },
+    "REL" : {
+      "Description" : "\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "REL",
+      "Name" : "Relationship",
+      "Source" : "Edge of the Empire Core Rulebook",
+      "SpecificMotivations" : [ "RELORIGIN", "RELPET", "RELFRIEND", "RELCOMRADES", "RELSIB", "RELMENTOR", "RELPARENTS", "RELFAMILY", "RELDROID", "RELNEMESIS", "RELLOCALCIV", "RELLOVER", "RELRIVAL", "RELTECH" ]
+    },
+    "REWARD" : {
+      "Description" : "\n      <h4>Reward</h4> <p>\n      Please see page 34 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARD",
+      "Name" : "Reward",
+      "Source" : "Fly Casual",
+      "SpecificMotivations" : [ "REWARDSM1", "REWARDSM2", "REWARDSM3", "REWARDSM4", "REWARDSM5", "REWARDSM6", "REWARDSM7", "REWARDSM8", "REWARDSM9", "REWARDSM10" ]
+    }
+  },
   "Obligations" : {
     "ADD" : {
       "Description" : "\n      <h4>Addiction</h4> <p>\n      Please see page 39 of the Edge of the Empire Core Rulebook for details.\n\n    </p>",
@@ -27226,6 +27417,1639 @@
         "RankStart" : "0",
         "Requirement" : "\n        false\n        false\n        false\n        false\n        0\n      "
       } ]
+    }
+  },
+  "SpecificMotivations" : {
+    "AMBDISC" : {
+      "Description" : "\n      <h4>Discovery</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "AMBDISC",
+      "Motivation" : "Ambition",
+      "Name" : "Discovery",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "AMBENLIGHT" : {
+      "Description" : "\n      <h4>Enlightenment</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "AMBENLIGHT",
+      "Motivation" : "Ambition",
+      "Name" : "Enlightenment",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "AMBEXPER" : {
+      "Description" : "\n      <h4>Expertise</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook, and page 106 of the Force and Destiny Core Rulebook, for details.\n    </p>",
+      "Key" : "AMBEXPER",
+      "Motivation" : "Ambition",
+      "Name" : "Expertise",
+      "Source" : [ "Edge of the Empire Core Rulebook Page 95", "Force and Destiny Core Rulebook Page 106" ]
+    },
+    "AMBFAME" : {
+      "Description" : "\n      <h4>Fame</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "AMBFAME",
+      "Motivation" : "Ambition",
+      "Name" : "Fame",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "AMBFREE" : {
+      "Description" : "\n      <h4>Freedom</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "AMBFREE",
+      "Motivation" : "Ambition",
+      "Name" : "Freedom",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "AMBFRIEND" : {
+      "Description" : "\n      <h4>Friendship</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "AMBFRIEND",
+      "Motivation" : "Ambition",
+      "Name" : "Friendship",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "AMBGLORY" : {
+      "Description" : "\n      <h4>Glory</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "AMBGLORY",
+      "Motivation" : "Ambition",
+      "Name" : "Glory",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "AMBGREED" : {
+      "Description" : "\n      <h4>Greed</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "AMBGREED",
+      "Motivation" : "Ambition",
+      "Name" : "Greed",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "AMBJEDI" : {
+      "Description" : "\n      <h4>Become a Jedi</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "AMBJEDI",
+      "Motivation" : "Ambition",
+      "Name" : "Become a Jedi",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "AMBLOVE" : {
+      "Description" : "\n      <h4>Love</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "AMBLOVE",
+      "Motivation" : "Ambition",
+      "Name" : "Love",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "AMBPOWER" : {
+      "Description" : "\n      <h4>Power</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook, or page 106 of the Force and Destiny Core Rulebook, for details.\n    </p>",
+      "Key" : "AMBPOWER",
+      "Motivation" : "Ambition",
+      "Name" : "Power",
+      "Source" : [ "Edge of the Empire Core Rulebook Page 95", "Force and Destiny Core Rulebook Page 106" ]
+    },
+    "AMBRELIGION" : {
+      "Description" : "\n      <h4>Religion/Spirituality</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "AMBRELIGION",
+      "Motivation" : "Ambition",
+      "Name" : "Religion/Spirituality",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "AMBREVENGE" : {
+      "Description" : "\n      <h4>Revenge</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "AMBREVENGE",
+      "Motivation" : "Ambition",
+      "Name" : "Revenge",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "AMBSITH" : {
+      "Description" : "\n      <h4>Destroy the Sith</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "AMBSITH",
+      "Motivation" : "Ambition",
+      "Name" : "Destroy the Sith",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "AMBSTATUS" : {
+      "Description" : "\n      <h4>Status</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "AMBSTATUS",
+      "Motivation" : "Ambition",
+      "Name" : "Status",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "AMBSURVIVAL" : {
+      "Description" : "\n      <h4>Survival</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "AMBSURVIVAL",
+      "Motivation" : "Ambition",
+      "Name" : "Survival",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "AMBWAND" : {
+      "Description" : "\n      <h4>Wanderlust/Novelty</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "AMBWAND",
+      "Motivation" : "Ambition",
+      "Name" : "Wanderlust/Novelty",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "AMBWEALTH" : {
+      "Description" : "\n      <h4>Wealth</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "AMBWEALTH",
+      "Motivation" : "Ambition",
+      "Name" : "Wealth",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "BELCRIME" : {
+      "Description" : "\n      <h4>Crime</h4> <p>\n      Please see page 105 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "BELCRIME",
+      "Motivation" : "Belief",
+      "Name" : "Crime",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "BELFORCE" : {
+      "Description" : "\n      <h4>The Force</h4> <p>\n      Please see page 68 of the Age of Rebellion Beta Rulebook for details.\n    </p>",
+      "Key" : "BELFORCE",
+      "Motivation" : "Belief",
+      "Name" : "The Force",
+      "Source" : "Age of Rebellion Beta Rulebook"
+    },
+    "BELFREE" : {
+      "Description" : "\n      <h4>Freedom</h4> <p>\n      Please see page 105 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "BELFREE",
+      "Motivation" : "Belief",
+      "Name" : "Freedom",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "BELFREEENT" : {
+      "Description" : "\n      <h4>Free Enterprise</h4> <p>\n      Please see page 68 of the Age of Rebellion Beta Rulebook for details.\n    </p>",
+      "Key" : "BELFREEENT",
+      "Motivation" : "Belief",
+      "Name" : "Free Enterprise",
+      "Source" : "Age of Rebellion Beta Rulebook"
+    },
+    "BELHONOR" : {
+      "Description" : "\n      <h4>Honor</h4> <p>\n      Please see page 105 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "BELHONOR",
+      "Motivation" : "Belief",
+      "Name" : "Honor",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "BELJUSTICE" : {
+      "Description" : "\n      <h4>Justice</h4> <p>\n      Please see page 105 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "BELJUSTICE",
+      "Motivation" : "Belief",
+      "Name" : "Justice",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "BELLIBERTY" : {
+      "Description" : "\n      <h4>Liberty</h4> <p>\n      Please see page 68 of the Age of Rebellion Beta Rulebook for details.\n    </p>",
+      "Key" : "BELLIBERTY",
+      "Motivation" : "Belief",
+      "Name" : "Liberty",
+      "Source" : "Age of Rebellion Beta Rulebook"
+    },
+    "BELORDER" : {
+      "Description" : "\n      <h4>Order</h4> <p>\n      Please see page 68 of the Age of Rebellion Beta Rulebook for details.\n    </p>",
+      "Key" : "BELORDER",
+      "Motivation" : "Belief",
+      "Name" : "Order",
+      "Source" : "Age of Rebellion Beta Rulebook"
+    },
+    "BELPEACE" : {
+      "Description" : "\n      <h4>Peace</h4> <p>\n      Please see page 105 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "BELPEACE",
+      "Motivation" : "Belief",
+      "Name" : "Peace",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "BELPROGRESS" : {
+      "Description" : "\n      <h4>Progress</h4> <p>\n      Please see page 105 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "BELPROGRESS",
+      "Motivation" : "Belief",
+      "Name" : "Progress",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "BELRELPHIL" : {
+      "Description" : "\n      <h4>Religion/Philosophy</h4> <p>\n      Please see page 105 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "BELRELPHIL",
+      "Motivation" : "Belief",
+      "Name" : "Religion/Philosophy",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "BELREPUBLIC" : {
+      "Description" : "\n      <h4>The Republic</h4> <p>\n      Please see page 105 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "BELREPUBLIC",
+      "Motivation" : "Belief",
+      "Name" : "The Republic",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "BELSPRIGHTS" : {
+      "Description" : "\n      <h4>Species Rights</h4> <p>\n      Please see page 105 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "BELSPRIGHTS",
+      "Motivation" : "Belief",
+      "Name" : "Species Rights",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "BELTHEJEDI" : {
+      "Description" : "\n      <h4>The Jedi</h4> <p>\n      Please see page 105 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "BELTHEJEDI",
+      "Motivation" : "Belief",
+      "Name" : "The Jedi",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CAUCAPITAL" : {
+      "Description" : "\n      <h4>Capitalism</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "CAUCAPITAL",
+      "Motivation" : "Cause",
+      "Name" : "Capitalism",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "CAUCRIME" : {
+      "Description" : "\n      <h4>Crime</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "CAUCRIME",
+      "Motivation" : "Cause",
+      "Name" : "Crime",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "CAUDROID" : {
+      "Description" : "\n      <h4>Droid Rights</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "CAUDROID",
+      "Motivation" : "Cause",
+      "Name" : "Droid Rights",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "CAUEMANC" : {
+      "Description" : "\n      <h4>Emancipation</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "CAUEMANC",
+      "Motivation" : "Cause",
+      "Name" : "Emancipation",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "CAUEMPIRE" : {
+      "Description" : "\n      <h4>Support the Empire</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "CAUEMPIRE",
+      "Motivation" : "Cause",
+      "Name" : "Support the Empire",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "CAUEQUAL" : {
+      "Description" : "\n      <h4>Equality</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "CAUEQUAL",
+      "Motivation" : "Cause",
+      "Name" : "Equality",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "CAUFREEDOM" : {
+      "Description" : "\n      <h4>Freedom</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "CAUFREEDOM",
+      "Motivation" : "Cause",
+      "Name" : "Freedom",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "CAUFREEENT" : {
+      "Description" : "\n      <h4>Free Enterprise</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "CAUFREEENT",
+      "Motivation" : "Cause",
+      "Name" : "Free Enterprise",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "CAUHELPLESS" : {
+      "Description" : "\n      <h4>Help the Helpless</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "CAUHELPLESS",
+      "Motivation" : "Cause",
+      "Name" : "Help the Helpless",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "CAUJUSTICE" : {
+      "Description" : "\n      <h4>Justice</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "CAUJUSTICE",
+      "Motivation" : "Cause",
+      "Name" : "Justice",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "CAUKNOW" : {
+      "Description" : "\n      <h4>Knowledge</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "CAUKNOW",
+      "Motivation" : "Cause",
+      "Name" : "Knowledge",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "CAUNONHUM" : {
+      "Description" : "\n      <h4>Non-Human Rights</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "CAUNONHUM",
+      "Motivation" : "Cause",
+      "Name" : "Non-Human Rights",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "CAUOVER" : {
+      "Description" : "\n      <h4>Overthrow the Empire</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook, or page 106 of the Force and Destiny Core Rulebook, for details.\n      for details.\n    </p>",
+      "Key" : "CAUOVER",
+      "Motivation" : "Cause",
+      "Name" : "Overthrow the Empire",
+      "Source" : [ "Edge of the Empire Core Rulebook Page 95", "Force and Destiny Core Rulebook Page 106" ]
+    },
+    "CAUPEACE" : {
+      "Description" : "\n      <h4>Galactic Peace</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "CAUPEACE",
+      "Motivation" : "Cause",
+      "Name" : "Galactic Peace",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "CAUPOLITICS" : {
+      "Description" : "\n      <h4>Local Politics</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "CAUPOLITICS",
+      "Motivation" : "Cause",
+      "Name" : "Local Politics",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "CAURELIGION" : {
+      "Description" : "\n      <h4>Religion/Spirituality</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "CAURELIGION",
+      "Motivation" : "Cause",
+      "Name" : "Religion/Spirituality",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "CAURESTJEDI" : {
+      "Description" : "\n      <h4>Restore the Jedi</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "CAURESTJEDI",
+      "Motivation" : "Cause",
+      "Name" : "Restore the Jedi",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "CAUSTOPREB" : {
+      "Description" : "\n      <h4>Stop the Rebellion</h4> <p>\n      Please see page 106 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "CAUSTOPREB",
+      "Motivation" : "Cause",
+      "Name" : "Stop the Rebellion",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "CAUWEAK" : {
+      "Description" : "\n      <h4>The Weak/Charity</h4> <p>\n      Please see page 95 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "CAUWEAK",
+      "Motivation" : "Cause",
+      "Name" : "The Weak/Charity",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "CODECOLL" : {
+      "Description" : "\n      <h4>No Collateral Damage</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODECOLL",
+      "Motivation" : "Code",
+      "Name" : "No Collateral Damage",
+      "Source" : "No Disintegrations"
+    },
+    "CODEFINISH" : {
+      "Description" : "\n      <h4>Finish the Job</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODEFINISH",
+      "Motivation" : "Code",
+      "Name" : "Finish the Job",
+      "Source" : "No Disintegrations"
+    },
+    "CODELIVE" : {
+      "Description" : "\n      <h4>Live Capture</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODELIVE",
+      "Motivation" : "Code",
+      "Name" : "Live Capture",
+      "Source" : "No Disintegrations"
+    },
+    "CODENEVER" : {
+      "Description" : "\n      <h4>Never Again</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODENEVER",
+      "Motivation" : "Code",
+      "Name" : "Never Again",
+      "Source" : "No Disintegrations"
+    },
+    "CODEPAID" : {
+      "Description" : "\n      <h4>Always Get Paid</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODEPAID",
+      "Motivation" : "Code",
+      "Name" : "Always Get Paid",
+      "Source" : "No Disintegrations"
+    },
+    "CODEQUIET" : {
+      "Description" : "\n      <h4>Quiet Professionalism</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODEQUIET",
+      "Motivation" : "Code",
+      "Name" : "Quiet Professionalism",
+      "Source" : "No Disintegrations"
+    },
+    "CODEREP" : {
+      "Description" : "\n      <h4>Reputation is Everything</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODEREP",
+      "Motivation" : "Code",
+      "Name" : "Reputation is Everything",
+      "Source" : "No Disintegrations"
+    },
+    "CODERULE" : {
+      "Description" : "\n      <h4>Rule of Law</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODERULE",
+      "Motivation" : "Code",
+      "Name" : "Rule of Law",
+      "Source" : "No Disintegrations"
+    },
+    "CODESCORE" : {
+      "Description" : "\n      <h4>The Only Score that Matters</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODESCORE",
+      "Motivation" : "Code",
+      "Name" : "The Only Score that Matters",
+      "Source" : "No Disintegrations"
+    },
+    "CODESURV" : {
+      "Description" : "\n      <h4>Survival</h4> <p>\n      Please see page 37 of the No Disintegrations Sourcebook for details.\n    </p>",
+      "Key" : "CODESURV",
+      "Motivation" : "Code",
+      "Name" : "Survival",
+      "Source" : "No Disintegrations"
+    },
+    "CONECON" : {
+      "Description" : "\n      <h4>Economic</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONECON",
+      "Motivation" : "Connections",
+      "Name" : "Economic",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CONEMPIRE" : {
+      "Description" : "\n      <h4>The Empire</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONEMPIRE",
+      "Motivation" : "Connections",
+      "Name" : "The Empire",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CONFAMILY" : {
+      "Description" : "\n      <h4>Family</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONFAMILY",
+      "Motivation" : "Connections",
+      "Name" : "Family",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CONFLICT1" : {
+      "Description" : "\n      <h4>Mayhem</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT1",
+      "Motivation" : "Conflict",
+      "Name" : "Mayhem",
+      "Source" : [ "Dangerous Covenants Page 34", "Stay on Target Page 34" ]
+    },
+    "CONFLICT10" : {
+      "Description" : "\n      <h4>Life Debt</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT10",
+      "Motivation" : "Conflict",
+      "Name" : "Life Debt",
+      "Source" : [ "Dangerous Covenants Page 34", "Stay on Target Page 34" ]
+    },
+    "CONFLICT11" : {
+      "Description" : "\n      <h4>Squadron</h4> <p>\n      Please see page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT11",
+      "Motivation" : "Conflict",
+      "Name" : "Squadron",
+      "Source" : "Stay on Target"
+    },
+    "CONFLICT12" : {
+      "Description" : "\n      <h4>Professional</h4> <p>\n      Please see page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT12",
+      "Motivation" : "Conflict",
+      "Name" : "Professional",
+      "Source" : "Stay on Target"
+    },
+    "CONFLICT13" : {
+      "Description" : "\n      <h4>Best of the Best</h4> <p>\n      Please see page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT13",
+      "Motivation" : "Conflict",
+      "Name" : "Best of the Best",
+      "Source" : "Stay on Target"
+    },
+    "CONFLICT14" : {
+      "Description" : "\n      <h4>Retirement</h4> <p>\n      Please see page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT14",
+      "Motivation" : "Conflict",
+      "Name" : "Retirement",
+      "Source" : "Stay on Target"
+    },
+    "CONFLICT2" : {
+      "Description" : "\n      <h4>Violent Conquest</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT2",
+      "Motivation" : "Conflict",
+      "Name" : "Violent Conquest",
+      "Source" : [ "Dangerous Covenants Page 34", "Stay on Target Page 34" ]
+    },
+    "CONFLICT3" : {
+      "Description" : "\n      <h4>Squadmates</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT3",
+      "Motivation" : "Conflict",
+      "Name" : "Squadmates",
+      "Source" : "Dangerous Covenants"
+    },
+    "CONFLICT4" : {
+      "Description" : "\n      <h4>Blood Money</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT4",
+      "Motivation" : "Conflict",
+      "Name" : "Blood Money",
+      "Source" : "Dangerous Covenants"
+    },
+    "CONFLICT5" : {
+      "Description" : "\n      <h4>Honor in Battle</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT5",
+      "Motivation" : "Conflict",
+      "Name" : "Honor in Battle",
+      "Source" : [ "Dangerous Covenants Page 34", "Stay on Target Page 34" ]
+    },
+    "CONFLICT6" : {
+      "Description" : "\n      <h4>Best in the Field</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT6",
+      "Motivation" : "Conflict",
+      "Name" : "Best in the Field",
+      "Source" : "Dangerous Covenants"
+    },
+    "CONFLICT7" : {
+      "Description" : "\n      <h4>Revenge</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT7",
+      "Motivation" : "Conflict",
+      "Name" : "Revenge",
+      "Source" : [ "Dangerous Covenants Page 34", "Stay on Target Page 34" ]
+    },
+    "CONFLICT8" : {
+      "Description" : "\n      <h4>Out of the Game</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT8",
+      "Motivation" : "Conflict",
+      "Name" : "Out of the Game",
+      "Source" : "Dangerous Covenants"
+    },
+    "CONFLICT9" : {
+      "Description" : "\n      <h4>TAdrenaline Junky</h4> <p>\n      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "CONFLICT9",
+      "Motivation" : "Conflict",
+      "Name" : "Adrenaline Junky",
+      "Source" : [ "Dangerous Covenants Page 34", "Stay on Target Page 34" ]
+    },
+    "CONFRIENDS" : {
+      "Description" : "\n      <h4>Friends</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONFRIENDS",
+      "Motivation" : "Connections",
+      "Name" : "Friends",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CONINTEL" : {
+      "Description" : "\n      <h4>Intelligence</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONINTEL",
+      "Motivation" : "Connections",
+      "Name" : "Intelligence",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CONLOVE" : {
+      "Description" : "\n      <h4>Love Interest</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONLOVE",
+      "Motivation" : "Connections",
+      "Name" : "Love Interest",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CONMILITARY" : {
+      "Description" : "\n      <h4>Military</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONMILITARY",
+      "Motivation" : "Connections",
+      "Name" : "Military",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CONNOONE" : {
+      "Description" : "\n      <h4>No One</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONNOONE",
+      "Motivation" : "Connections",
+      "Name" : "No One",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CONPOLITICAL" : {
+      "Description" : "\n      <h4>Political</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONPOLITICAL",
+      "Motivation" : "Connections",
+      "Name" : "Political",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CONRESCUE" : {
+      "Description" : "\n      <h4>Rescuer</h4> <p>\n      Please see page 69 of the Age of Rebellion Beta Rulebook for details.\n    </p>",
+      "Key" : "CONRESCUE",
+      "Motivation" : "Connections",
+      "Name" : "Rescuer",
+      "Source" : "Age of Rebellion Beta Rulebook"
+    },
+    "CONRIVAL" : {
+      "Description" : "\n      <h4>Rival</h4> <p>\n      Please see page 69 of the Age of Rebellion Beta Rulebook for details.\n    </p>",
+      "Key" : "CONRIVAL",
+      "Motivation" : "Connections",
+      "Name" : "Rival",
+      "Source" : "Age of Rebellion Beta Rulebook"
+    },
+    "CONUNDERWORLD" : {
+      "Description" : "\n      <h4>The Underworld</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "CONUNDERWORLD",
+      "Motivation" : "Connections",
+      "Name" : "The Underworld",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "CREATIONSM1" : {
+      "Description" : "\n      <h4>Society</h4> <p>\n      Please see page 34 of the Far Horizons Sourcebook for details.</p>",
+      "Key" : "CREATIONSM1",
+      "Motivation" : "Creations",
+      "Name" : "Society",
+      "Source" : "Far Horizons"
+    },
+    "CREATIONSM2" : {
+      "Description" : "\n      <h4>Homestead</h4> <p>\n      Please see page 34 of the Far Horizons Sourcebook for details.</p>",
+      "Key" : "CREATIONSM2",
+      "Motivation" : "Creations",
+      "Name" : "Homestead",
+      "Source" : "Far Horizons"
+    },
+    "CREATIONSM3" : {
+      "Description" : "\n      <h4>Legacy</h4> <p>\n      Please see page 34 of the Far Horizons Sourcebook for details.</p>",
+      "Key" : "CREATIONSM3",
+      "Motivation" : "Creations",
+      "Name" : "Legacy",
+      "Source" : "Far Horizons"
+    },
+    "CREATIONSM4" : {
+      "Description" : "\n      <h4>Family</h4> <p>\n      Please see page 34 of the Far Horizons Sourcebook for details.</p>",
+      "Key" : "CREATIONSM4",
+      "Motivation" : "Creations",
+      "Name" : "Family",
+      "Source" : "Far Horizons"
+    },
+    "CREATIONSM5" : {
+      "Description" : "\n      <h4>Art</h4> <p>\n      Please see page 34 of the Far Horizons Sourcebook for details.</p>",
+      "Key" : "CREATIONSM5",
+      "Motivation" : "Creations",
+      "Name" : "Art",
+      "Source" : "Far Horizons"
+    },
+    "CREATIONSM6" : {
+      "Description" : "\n      <h4>Cure</h4> <p>\n      Please see page 34 of the Far Horizons Sourcebook for details.</p>",
+      "Key" : "CREATIONSM6",
+      "Motivation" : "Creations",
+      "Name" : "Cure",
+      "Source" : "Far Horizons"
+    },
+    "CREATIONSM7" : {
+      "Description" : "\n      <h4>Understanding</h4> <p>\n      Please see page 34 of the Far Horizons Sourcebook for details.</p>",
+      "Key" : "CREATIONSM7",
+      "Motivation" : "Creations",
+      "Name" : "Understanding",
+      "Source" : "Far Horizons"
+    },
+    "CREATIONSM8" : {
+      "Description" : "\n      <h4>Business</h4> <p>\n      Please see page 34 of the Far Horizons Sourcebook for details.</p>",
+      "Key" : "CREATIONSM8",
+      "Motivation" : "Creations",
+      "Name" : "Business",
+      "Source" : "Far Horizons"
+    },
+    "CREEDSM1" : {
+      "Description" : "\n      <h4>Power Corrupts</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREEDSM1",
+      "Motivation" : "Creed",
+      "Name" : "Power Corrupts",
+      "Source" : "Desperate Allies"
+    },
+    "CREEDSM10" : {
+      "Description" : "\n      <h4>Living Memory</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREEDSM10",
+      "Motivation" : "Creed",
+      "Name" : "Living Memory",
+      "Source" : "Desperate Allies"
+    },
+    "CREEDSM2" : {
+      "Description" : "\n      <h4>Strive for Excellence</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREEDSM2",
+      "Motivation" : "Creed",
+      "Name" : "Strive for Excellence",
+      "Source" : "Desperate Allies"
+    },
+    "CREEDSM3" : {
+      "Description" : "\n      <h4>The Body Needs a Head</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREEDSM3",
+      "Motivation" : "Creed",
+      "Name" : "The Body Needs a Head",
+      "Source" : "Desperate Allies"
+    },
+    "CREEDSM4" : {
+      "Description" : "\n      <h4>Order from Chaos</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREEDSM4",
+      "Motivation" : "Creed",
+      "Name" : "Order from Chaos",
+      "Source" : "Desperate Allies"
+    },
+    "CREEDSM5" : {
+      "Description" : "\n      <h4>Never Alone</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREEDSM5",
+      "Motivation" : "Creed",
+      "Name" : "Never Alone",
+      "Source" : "Desperate Allies"
+    },
+    "CREEDSM6" : {
+      "Description" : "\n      <h4>Return the Favor</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREEDSM6",
+      "Motivation" : "Creed",
+      "Name" : "Return the Favor",
+      "Source" : "Desperate Allies"
+    },
+    "CREEDSM7" : {
+      "Description" : "\n      <h4>Be Unique</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREEDSM7",
+      "Motivation" : "Creed",
+      "Name" : "Be Unique",
+      "Source" : "Desperate Allies"
+    },
+    "CREEDSM8" : {
+      "Description" : "\n      <h4>People Are Counting on Me</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREEDSM8",
+      "Motivation" : "Creed",
+      "Name" : "People Are Counting on Me",
+      "Source" : "Desperate Allies"
+    },
+    "CREEDSM9" : {
+      "Description" : "\n      <h4>Balance Must Be Restored</h4> <p>\n      Please see page 36 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "CREEDSM9",
+      "Motivation" : "Creed",
+      "Name" : "Balance Must Be Restored",
+      "Source" : "Desperate Allies"
+    },
+    "DISCOVERYSM1" : {
+      "Description" : "\n      <h4>Self</h4> <p>\n      Please see page 32 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERYSM1",
+      "Motivation" : "Discovery",
+      "Name" : "Self",
+      "Source" : "Enter the Unknown"
+    },
+    "DISCOVERYSM10" : {
+      "Description" : "\n      <h4>\"Anywhere But Here!\"</h4> <p>\n      Please see page 32 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERYSM10",
+      "Motivation" : "Discovery",
+      "Name" : "\"Anywhere But Here!\"",
+      "Source" : "Enter the Unknown"
+    },
+    "DISCOVERYSM2" : {
+      "Description" : "\n      <h4>Civilization</h4> <p>\n      Please see page 32 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERYSM2",
+      "Motivation" : "Discovery",
+      "Name" : "Civilization",
+      "Source" : "Enter the Unknown"
+    },
+    "DISCOVERYSM3" : {
+      "Description" : "\n      <h4>Planets</h4> <p>\n      Please see page 32 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERYSM3",
+      "Motivation" : "Discovery",
+      "Name" : "Planets",
+      "Source" : "Enter the Unknown"
+    },
+    "DISCOVERYSM4" : {
+      "Description" : "\n      <h4>Treasures</h4> <p>\n      Please see page 32 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERYSM4",
+      "Motivation" : "Discovery",
+      "Name" : "Treasures",
+      "Source" : "Enter the Unknown"
+    },
+    "DISCOVERYSM5" : {
+      "Description" : "\n      <h4>Secrets</h4> <p>\n      Please see page 32 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERYSM5",
+      "Motivation" : "Discovery",
+      "Name" : "Secrets",
+      "Source" : "Enter the Unknown"
+    },
+    "DISCOVERYSM6" : {
+      "Description" : "\n      <h4>Knowledge</h4> <p>\n      Please see page 32 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERYSM6",
+      "Motivation" : "Discovery",
+      "Name" : "Knowledge",
+      "Source" : "Enter the Unknown"
+    },
+    "DISCOVERYSM7" : {
+      "Description" : "\n      <h4>Resources</h4> <p>\n      Please see page 32 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERYSM7",
+      "Motivation" : "Discovery",
+      "Name" : "Resources",
+      "Source" : "Enter the Unknown"
+    },
+    "DISCOVERYSM8" : {
+      "Description" : "\n      <h4>Technology</h4> <p>\n      Please see page 32 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERYSM8",
+      "Motivation" : "Discovery",
+      "Name" : "Technology",
+      "Source" : "Enter the Unknown"
+    },
+    "DISCOVERYSM9" : {
+      "Description" : "\n      <h4>The Lost</h4> <p>\n      Please see page 32 of the Enter the Unknown Sourcebook for details.\n    </p>",
+      "Key" : "DISCOVERYSM9",
+      "Motivation" : "Discovery",
+      "Name" : "The Lost",
+      "Source" : "Enter the Unknown"
+    },
+    "DRIVEALLCOSTS" : {
+      "Description" : "\n      <h4>At All Costs</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVEALLCOSTS",
+      "Motivation" : "Drive",
+      "Name" : "At All Costs",
+      "Source" : "Lead by Example"
+    },
+    "DRIVECOMMAND" : {
+      "Description" : "\n      <h4>Command</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVECOMMAND",
+      "Motivation" : "Drive",
+      "Name" : "Command",
+      "Source" : "Lead by Example"
+    },
+    "DRIVEEGO" : {
+      "Description" : "\n      <h4>Ego</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVEEGO",
+      "Motivation" : "Drive",
+      "Name" : "Ego",
+      "Source" : "Lead by Example"
+    },
+    "DRIVEGAME" : {
+      "Description" : "\n      <h4>The Game</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVEGAME",
+      "Motivation" : "Drive",
+      "Name" : "The Game",
+      "Source" : "Lead by Example"
+    },
+    "DRIVEGUILT" : {
+      "Description" : "\n      <h4>Guilt</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVEGUILT",
+      "Motivation" : "Drive",
+      "Name" : "Guilt",
+      "Source" : "Lead by Example"
+    },
+    "DRIVEMISSION" : {
+      "Description" : "\n      <h4>The Mission</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVEMISSION",
+      "Motivation" : "Drive",
+      "Name" : "The Mission",
+      "Source" : "Lead by Example"
+    },
+    "DRIVEREDEMP" : {
+      "Description" : "\n      <h4>Redemption</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVEREDEMP",
+      "Motivation" : "Drive",
+      "Name" : "Redemption",
+      "Source" : "Lead by Example"
+    },
+    "DRIVERETIRE" : {
+      "Description" : "\n      <h4>Retirement</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVERETIRE",
+      "Motivation" : "Drive",
+      "Name" : "Retirement",
+      "Source" : "Lead by Example"
+    },
+    "DRIVESPIRIT" : {
+      "Description" : "\n      <h4>Spirit</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVESPIRIT",
+      "Motivation" : "Drive",
+      "Name" : "Spirit",
+      "Source" : "Lead by Example"
+    },
+    "DRIVESUBORD" : {
+      "Description" : "\n      <h4>Subordinates</h4> <p>\n      Please see page 37 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "DRIVESUBORD",
+      "Motivation" : "Drive",
+      "Name" : "Subordinates",
+      "Source" : "Lead by Example"
+    },
+    "FAICOSMICFOR" : {
+      "Description" : "\n      <h4>The Cosmic Force</h4> <p>\n      Please see page 107 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAICOSMICFOR",
+      "Motivation" : "Faith",
+      "Name" : "The Cosmic Force",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "FAIFRIENDFAM" : {
+      "Description" : "\n      <h4>Friends and Family</h4> <p>\n      Please see page 107 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAIFRIENDFAM",
+      "Motivation" : "Faith",
+      "Name" : "Friends and Family",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "FAIGOODPEOP" : {
+      "Description" : "\n      <h4>Goodness of People</h4> <p>\n      Please see page 107 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAIGOODPEOP",
+      "Motivation" : "Faith",
+      "Name" : "Goodness of People",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "FAIIMPRULE" : {
+      "Description" : "\n      <h4>Imperial Rule</h4> <p>\n      Please see page 107 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAIIMPRULE",
+      "Motivation" : "Faith",
+      "Name" : "Imperial Rule",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "FAIJEDICODE" : {
+      "Description" : "\n      <h4>The Jedi Code</h4> <p>\n      Please see page 107 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAIJEDICODE",
+      "Motivation" : "Faith",
+      "Name" : "The Jedi Code",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "FAINAT" : {
+      "Description" : "\n      <h4>Natural World</h4> <p>\n      Please see page 107 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAINAT",
+      "Motivation" : "Faith",
+      "Name" : "Natural World",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "FAINOTHING" : {
+      "Description" : "\n      <h4>Nothing</h4> <p>\n      Please see page 107 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAINOTHING",
+      "Motivation" : "Faith",
+      "Name" : "Nothing",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "FAIREBELLION" : {
+      "Description" : "\n      <h4>The Rebellion</h4> <p>\n      Please see page 107 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAIREBELLION",
+      "Motivation" : "Faith",
+      "Name" : "The Rebellion",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "FAIRELCODE" : {
+      "Description" : "\n      <h4>Religious Code</h4> <p>\n      Please see page 107 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAIRELCODE",
+      "Motivation" : "Faith",
+      "Name" : "Religious Code",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "FAISCIENCE" : {
+      "Description" : "\n      <h4>Science and Reason</h4> <p>\n      Please see page 107 of the Force and Destiny Core Rulebook for details.\n    </p>",
+      "Key" : "FAISCIENCE",
+      "Motivation" : "Faith",
+      "Name" : "Science and Reason",
+      "Source" : "Force and Destiny Core Rulebook"
+    },
+    "INJUSTICE1" : {
+      "Description" : "\n      <h4>Disenfranchisement</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE1",
+      "Motivation" : "Injustice",
+      "Name" : "Disenfranchisement",
+      "Source" : "Endless Vigil"
+    },
+    "INJUSTICE10" : {
+      "Description" : "\n      <h4>Violence</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE10",
+      "Motivation" : "Injustice",
+      "Name" : "Violence",
+      "Source" : "Endless Vigil"
+    },
+    "INJUSTICE2" : {
+      "Description" : "\n      <h4>Displacement</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE2",
+      "Motivation" : "Injustice",
+      "Name" : "Displacement",
+      "Source" : "Endless Vigil"
+    },
+    "INJUSTICE3" : {
+      "Description" : "\n      <h4>Hunger</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE3",
+      "Motivation" : "Injustice",
+      "Name" : "Hunger",
+      "Source" : "Endless Vigil"
+    },
+    "INJUSTICE4" : {
+      "Description" : "\n      <h4>Illness</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE4",
+      "Motivation" : "Injustice",
+      "Name" : "Illness",
+      "Source" : "Endless Vigil"
+    },
+    "INJUSTICE5" : {
+      "Description" : "\n      <h4>Imprisonment</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE5",
+      "Motivation" : "Injustice",
+      "Name" : "Imprisonment",
+      "Source" : "Endless Vigil"
+    },
+    "INJUSTICE6" : {
+      "Description" : "\n      <h4>Oppression</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE6",
+      "Motivation" : "Injustice",
+      "Name" : "Oppression",
+      "Source" : "Endless Vigil"
+    },
+    "INJUSTICE7" : {
+      "Description" : "\n      <h4>Poverty</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE7",
+      "Motivation" : "Injustice",
+      "Name" : "Poverty",
+      "Source" : "Endless Vigil"
+    },
+    "INJUSTICE8" : {
+      "Description" : "\n      <h4>Prejudice</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE8",
+      "Motivation" : "Injustice",
+      "Name" : "Prejudice",
+      "Source" : "Endless Vigil"
+    },
+    "INJUSTICE9" : {
+      "Description" : "\n      <h4>Slavery</h4> <p>\n      Please see page 32 of the Endless Vigil Sourcebook for details.\n    </p>",
+      "Key" : "INJUSTICE9",
+      "Motivation" : "Injustice",
+      "Name" : "Slavery",
+      "Source" : "Endless Vigil"
+    },
+    "INNOVFAB" : {
+      "Description" : "\n      <h4>Fabrication</h4> <p>\n      Please see page 37 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOVFAB",
+      "Motivation" : "Innovation",
+      "Name" : "Fabrication",
+      "Source" : "Special Modifications"
+    },
+    "INNOVIMP" : {
+      "Description" : "\n      <h4>Personal Improvement</h4> <p>\n      Please see page 37 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOVIMP",
+      "Motivation" : "Innovation",
+      "Name" : "Personal Improvement",
+      "Source" : "Special Modifications"
+    },
+    "INNOVINV" : {
+      "Description" : "\n      <h4>Invention</h4> <p>\n      Please see page 37 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOVINV",
+      "Motivation" : "Innovation",
+      "Name" : "Invention",
+      "Source" : "Special Modifications"
+    },
+    "INNOVMOD" : {
+      "Description" : "\n      <h4>Modification</h4> <p>\n      Please see page 37 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOVMOD",
+      "Motivation" : "Innovation",
+      "Name" : "Modification",
+      "Source" : "Special Modifications"
+    },
+    "INNOVTECHBUS" : {
+      "Description" : "\n      <h4>Technical Business Interests</h4> <p>\n      Please see page 37 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOVTECHBUS",
+      "Motivation" : "Innovation",
+      "Name" : "Technical Business Interests",
+      "Source" : "Special Modifications"
+    },
+    "INNOVTECHFASC" : {
+      "Description" : "\n      <h4>Technological Fascination</h4> <p>\n      Please see page 37 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOVTECHFASC",
+      "Motivation" : "Innovation",
+      "Name" : "Technological Fascination",
+      "Source" : "Special Modifications"
+    },
+    "INNOVTECHHIST" : {
+      "Description" : "\n      <h4>Technological Historian</h4> <p>\n      Please see page 37 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOVTECHHIST",
+      "Motivation" : "Innovation",
+      "Name" : "Technological Historian",
+      "Source" : "Special Modifications"
+    },
+    "INNOVTECHNECESS" : {
+      "Description" : "\n      <h4>Technological Necessity</h4> <p>\n      Please see page 37 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOVTECHNECESS",
+      "Motivation" : "Innovation",
+      "Name" : "Technological Necessity",
+      "Source" : "Special Modifications"
+    },
+    "INNOVTECHRIVAL" : {
+      "Description" : "\n      <h4>Technical Rival</h4> <p>\n      Please see page 37 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOVTECHRIVAL",
+      "Motivation" : "Innovation",
+      "Name" : "Technical Rival",
+      "Source" : "Special Modifications"
+    },
+    "INNOVWASTE" : {
+      "Description" : "\n      <h4>Waste Not, Want Not</h4> <p>\n      Please see page 37 of the Special Modifications Sourcebook for details.\n    </p>",
+      "Key" : "INNOVWASTE",
+      "Motivation" : "Innovation",
+      "Name" : "Waste Not, Want Not",
+      "Source" : "Special Modifications"
+    },
+    "LOCALEENENAM" : {
+      "Description" : "\n      <h4>Enamored of the Kindalo</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCALEENENAM",
+      "Motivation" : "Location: Aleen",
+      "Name" : "Enamored of the Kindalo",
+      "Source" : "Nexus of Power"
+    },
+    "LOCALEENFOLL" : {
+      "Description" : "\n      <h4>Follower of Orphne</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCALEENFOLL",
+      "Motivation" : "Location: Aleen",
+      "Name" : "Follower of Orphne",
+      "Source" : "Nexus of Power"
+    },
+    "LOCAURAISO" : {
+      "Description" : "\n      <h4>Isolationist</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCAURAISO",
+      "Motivation" : "Location: Auratera",
+      "Name" : "Isolationist",
+      "Source" : "Nexus of Power"
+    },
+    "LOCAURASTUD" : {
+      "Description" : "\n      <h4>Study of the Past</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCAURASTUD",
+      "Motivation" : "Location: Auratera",
+      "Name" : "Study of the Past",
+      "Source" : "Nexus of Power"
+    },
+    "LOCBARDFRANG" : {
+      "Description" : "\n      <h4>Frangawl Sympathizer</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCBARDFRANG",
+      "Motivation" : "Location: Bardotta",
+      "Name" : "Frangawl Sympathizer",
+      "Source" : "Nexus of Power"
+    },
+    "LOCBARDMEND" : {
+      "Description" : "\n      <h4>Mendicant</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCBARDMEND",
+      "Motivation" : "Location: Bardotta",
+      "Name" : "Mendicant",
+      "Source" : "Nexus of Power"
+    },
+    "LOCBARDPRES" : {
+      "Description" : "\n      <h4>Preservationist</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCBARDPRES",
+      "Motivation" : "Location: Bardotta",
+      "Name" : "Preservationist",
+      "Source" : "Nexus of Power"
+    },
+    "LOCDEVMAT" : {
+      "Description" : "\n      <h4>Matriarch</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCDEVMAT",
+      "Motivation" : "Location: Devaron",
+      "Name" : "Matriarch",
+      "Source" : "Nexus of Power"
+    },
+    "LOCIKTOCOLLAB" : {
+      "Description" : "\n      <h4>Collaborator</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCIKTOCOLLAB",
+      "Motivation" : "Location: Iktotch",
+      "Name" : "Collaborator",
+      "Source" : "Nexus of Power"
+    },
+    "LOCIKTOEXILE" : {
+      "Description" : "\n      <h4>Exile</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCIKTOEXILE",
+      "Motivation" : "Location: Iktotch",
+      "Name" : "Exile",
+      "Source" : "Nexus of Power"
+    },
+    "LOCIKTOVIS" : {
+      "Description" : "\n      <h4>Visions of the Future</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCIKTOVIS",
+      "Motivation" : "Location: Iktotch",
+      "Name" : "Visions of the Future",
+      "Source" : "Nexus of Power"
+    },
+    "LOCLOTHREV" : {
+      "Description" : "\n      <h4>Revolutionary</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCLOTHREV",
+      "Motivation" : "Location: Lothal",
+      "Name" : "Revolutionary",
+      "Source" : "Nexus of Power"
+    },
+    "LOCLOTHUPPOV" : {
+      "Description" : "\n      <h4>Up from Poverty</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCLOTHUPPOV",
+      "Motivation" : "Location: Lothal",
+      "Name" : "Up from Poverty",
+      "Source" : "Nexus of Power"
+    },
+    "LOCLOTHWARPROF" : {
+      "Description" : "\n      <h4>War Profiteer</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCLOTHWARPROF",
+      "Motivation" : "Location: Lothal",
+      "Name" : "War Profiteer",
+      "Source" : "Nexus of Power"
+    },
+    "LOCNABOOENVOY" : {
+      "Description" : "\n      <h4>Envoy</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCNABOOENVOY",
+      "Motivation" : "Location: Naboo",
+      "Name" : "Envoy",
+      "Source" : "Nexus of Power"
+    },
+    "LOCNABOOGUNG" : {
+      "Description" : "\n      <h4>Gungan Rights</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCNABOOGUNG",
+      "Motivation" : "Location: Naboo",
+      "Name" : "Gungan Rights",
+      "Source" : "Nexus of Power"
+    },
+    "LOCNABOOPOET" : {
+      "Description" : "\n      <h4>Poet</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCNABOOPOET",
+      "Motivation" : "Location: Naboo",
+      "Name" : "Poet",
+      "Source" : "Nexus of Power"
+    },
+    "LOCOSSUSARCH" : {
+      "Description" : "\n      <h4>Archaeologist</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCOSSUSARCH",
+      "Motivation" : "Location: Ossus",
+      "Name" : "Archaeologist",
+      "Source" : "Nexus of Power"
+    },
+    "LOCOSSUSPLUND" : {
+      "Description" : "\n      <h4>Plunderer</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCOSSUSPLUND",
+      "Motivation" : "Location: Ossus",
+      "Name" : "Plunderer",
+      "Source" : "Nexus of Power"
+    },
+    "LOCWEIKCAST" : {
+      "Description" : "\n      <h4>Caste Member</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCWEIKCAST",
+      "Motivation" : "Location: Weik",
+      "Name" : "Caste Member",
+      "Source" : "Nexus of Power"
+    },
+    "LOCWEIKFORREV" : {
+      "Description" : "\n      <h4>Force-Reverent</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCWEIKFORREV",
+      "Motivation" : "Location: Weik",
+      "Name" : "Force-Reverent",
+      "Source" : "Nexus of Power"
+    },
+    "LOCWEIKWIDE" : {
+      "Description" : "\n      <h4>Wide-Eyed Wanderer</h4> <p>\n      Please see page 115 of the Nexus of Power Sourcebook for details.\n    </p>",
+      "Key" : "LOCWEIKWIDE",
+      "Motivation" : "Location: Weik",
+      "Name" : "Wide-Eyed Wanderer",
+      "Source" : "Nexus of Power"
+    },
+    "OATHBALANCE" : {
+      "Description" : "\n      <h4>Balance of the Force</h4> <p>\n      Please see page 33 of the Keeping the Peace sourcebook for details.\n    </p>",
+      "Key" : "OATHBALANCE",
+      "Motivation" : "Oath",
+      "Name" : "Balance of the Force",
+      "Source" : "Keeping the Peace"
+    },
+    "OATHDEPART" : {
+      "Description" : "\n      <h4>Departed</h4> <p>\n      Please see page 33 of the Keeping the Peace sourcebook for details.\n    </p>",
+      "Key" : "OATHDEPART",
+      "Motivation" : "Oath",
+      "Name" : "Departed",
+      "Source" : "Keeping the Peace"
+    },
+    "OATHHOME" : {
+      "Description" : "\n      <h4>Homeland</h4> <p>\n      Please see page 33 of the Keeping the Peace sourcebook for details.\n    </p>",
+      "Key" : "OATHHOME",
+      "Motivation" : "Oath",
+      "Name" : "Homeland",
+      "Source" : "Keeping the Peace"
+    },
+    "OATHJUSTICE" : {
+      "Description" : "\n      <h4>Justice</h4> <p>\n      Please see page 33 of the Keeping the Peace sourcebook for details.\n    </p>",
+      "Key" : "OATHJUSTICE",
+      "Motivation" : "Oath",
+      "Name" : "Justice",
+      "Source" : "Keeping the Peace"
+    },
+    "OATHLEGACY" : {
+      "Description" : "\n      <h4>Artistic Legacy</h4> <p>\n      Please see page 33 of the Keeping the Peace sourcebook for details.\n    </p>",
+      "Key" : "OATHLEGACY",
+      "Motivation" : "Oath",
+      "Name" : "Artistic Legacy",
+      "Source" : "Keeping the Peace"
+    },
+    "OATHLIFE" : {
+      "Description" : "\n      <h4>Life Itself</h4> <p>\n      Please see page 33 of the Keeping the Peace sourcebook for details.\n    </p>",
+      "Key" : "OATHLIFE",
+      "Motivation" : "Oath",
+      "Name" : "Life Itself",
+      "Source" : "Keeping the Peace"
+    },
+    "OATHLOVE" : {
+      "Description" : "\n      <h4>Love</h4> <p>\n      Please see page 33 of the Keeping the Peace sourcebook for details.\n    </p>",
+      "Key" : "OATHLOVE",
+      "Motivation" : "Oath",
+      "Name" : "Love",
+      "Source" : "Keeping the Peace"
+    },
+    "OATHREPUB" : {
+      "Description" : "\n      <h4>The Republic</h4> <p>\n      Please see page 33 of the Keeping the Peace sourcebook for details.\n    </p>",
+      "Key" : "OATHREPUB",
+      "Motivation" : "Oath",
+      "Name" : "The Republic",
+      "Source" : "Keeping the Peace"
+    },
+    "OATHSPECIES" : {
+      "Description" : "\n      <h4>Species</h4> <p>\n      Please see page 33 of the Keeping the Peace sourcebook for details.\n    </p>",
+      "Key" : "OATHSPECIES",
+      "Motivation" : "Oath",
+      "Name" : "Species",
+      "Source" : "Keeping the Peace"
+    },
+    "OATHWARD" : {
+      "Description" : "\n      <h4>Ward</h4> <p>\n      Please see page 33 of the Keeping the Peace sourcebook for details.\n    </p>",
+      "Key" : "OATHWARD",
+      "Motivation" : "Oath",
+      "Name" : "Ward",
+      "Source" : "Keeping the Peace"
+    },
+    "PURSUIT1" : {
+      "Description" : "\n      <h4>Justice</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT1",
+      "Motivation" : "Pursuit",
+      "Name" : "Justice",
+      "Source" : "Savage Spirits"
+    },
+    "PURSUIT10" : {
+      "Description" : "\n      <h4>Vengeance</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT10",
+      "Motivation" : "Pursuit",
+      "Name" : "Vengeance",
+      "Source" : "Savage Spirits"
+    },
+    "PURSUIT2" : {
+      "Description" : "\n      <h4>Wealth</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT2",
+      "Motivation" : "Pursuit",
+      "Name" : "Wealth",
+      "Source" : "Savage Spirits"
+    },
+    "PURSUIT3" : {
+      "Description" : "\n      <h4>Knowledge</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT3",
+      "Motivation" : "Pursuit",
+      "Name" : "Knowledge",
+      "Source" : "Savage Spirits"
+    },
+    "PURSUIT4" : {
+      "Description" : "\n      <h4>Deadliness</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT4",
+      "Motivation" : "Pursuit",
+      "Name" : "Deadliness",
+      "Source" : "Savage Spirits"
+    },
+    "PURSUIT5" : {
+      "Description" : "\n      <h4>Happiness</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT5",
+      "Motivation" : "Pursuit",
+      "Name" : "Happiness",
+      "Source" : "Savage Spirits"
+    },
+    "PURSUIT6" : {
+      "Description" : "\n      <h4>Exploration</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT6",
+      "Motivation" : "Pursuit",
+      "Name" : "Exploration",
+      "Source" : "Savage Spirits"
+    },
+    "PURSUIT7" : {
+      "Description" : "\n      <h4>The Force</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT7",
+      "Motivation" : "Pursuit",
+      "Name" : "The Force",
+      "Source" : "Savage Spirits"
+    },
+    "PURSUIT8" : {
+      "Description" : "\n      <h4>Self-Reliance</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT8",
+      "Motivation" : "Pursuit",
+      "Name" : "Self-Reliance",
+      "Source" : "Savage Spirits"
+    },
+    "PURSUIT9" : {
+      "Description" : "\n      <h4>Efficiency</h4> <p>\n      Please see page 32 of the Savage Spirits Sourcebook for details.\n    </p>",
+      "Key" : "PURSUIT9",
+      "Motivation" : "Pursuit",
+      "Name" : "Efficiency",
+      "Source" : "Savage Spirits"
+    },
+    "QUEFREEDOM" : {
+      "Description" : "\n      <h4>Freedom</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUEFREEDOM",
+      "Motivation" : "Quest",
+      "Name" : "Freedom",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "QUEGLORY" : {
+      "Description" : "\n      <h4>Glory</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUEGLORY",
+      "Motivation" : "Quest",
+      "Name" : "Glory",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "QUEINFLU" : {
+      "Description" : "\n      <h4>Influence</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUEINFLU",
+      "Motivation" : "Quest",
+      "Name" : "Influence",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "QUEJEDI" : {
+      "Description" : "\n      <h4>The Jedi</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUEJEDI",
+      "Motivation" : "Quest",
+      "Name" : "The Jedi",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "QUEPURPOSE" : {
+      "Description" : "\n      <h4>Purpose</h4> <p>\n      Please see page 69 of the Age of Rebellion Beta Rulebook for details.\n    </p>",
+      "Key" : "QUEPURPOSE",
+      "Motivation" : "Quest",
+      "Name" : "Purpose",
+      "Source" : "Age of Rebellion Beta Rulebook"
+    },
+    "QUEREDEM" : {
+      "Description" : "\n      <h4>Redemption</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUEREDEM",
+      "Motivation" : "Quest",
+      "Name" : "Redemption",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "QUERESCUE" : {
+      "Description" : "\n      <h4>Rescue</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUERESCUE",
+      "Motivation" : "Quest",
+      "Name" : "Rescue",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "QUERICHES" : {
+      "Description" : "\n      <h4>Riches</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUERICHES",
+      "Motivation" : "Quest",
+      "Name" : "Riches",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "QUESITH" : {
+      "Description" : "\n      <h4>The Sith</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUESITH",
+      "Motivation" : "Quest",
+      "Name" : "The Sith",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "QUETHRILL" : {
+      "Description" : "\n      <h4>Thrill</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUETHRILL",
+      "Motivation" : "Quest",
+      "Name" : "Thrill",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "QUETREAS" : {
+      "Description" : "\n      <h4>Lost Treasure</h4> <p>\n      Please see page 69 of the Age of Rebellion Beta Rulebook for details.\n    </p>",
+      "Key" : "QUETREAS",
+      "Motivation" : "Quest",
+      "Name" : "Lost Treasure",
+      "Source" : "Age of Rebellion Beta Rulebook"
+    },
+    "QUEVENG" : {
+      "Description" : "\n      <h4>Vengeance</h4> <p>\n      Please see page 106 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "QUEVENG",
+      "Motivation" : "Quest",
+      "Name" : "Vengeance",
+      "Source" : "Age of Rebellion Core Rulebook"
+    },
+    "RELCOMRADES" : {
+      "Description" : "\n      <h4>Comrades</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "RELCOMRADES",
+      "Motivation" : "Relationship",
+      "Name" : "Comrades",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "RELDROID" : {
+      "Description" : "\n      <h4>Droid Companion</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "RELDROID",
+      "Motivation" : "Relationship",
+      "Name" : "Droid Companion",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "RELFAMILY" : {
+      "Description" : "\n      <h4>Extended Family/Clan</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "RELFAMILY",
+      "Motivation" : "Relationship",
+      "Name" : "Extended Family/Clan",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "RELFRIEND" : {
+      "Description" : "\n      <h4>Childhood Friend</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "RELFRIEND",
+      "Motivation" : "Relationship",
+      "Name" : "Childhood Friend",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "RELLOCALCIV" : {
+      "Description" : "\n      <h4>Local Civilian</h4> <p>\n      Please see page 36 of the Forged in Battle Sourcebook for details.\n    </p>",
+      "Key" : "RELLOCALCIV",
+      "Motivation" : "Relationship",
+      "Name" : "Local Civilian",
+      "Source" : "Forged in Battle"
+    },
+    "RELLOVER" : {
+      "Description" : "\n      <h4>Lover</h4> <p>\n      Please see page 36 of the Forged in Battle Sourcebook for details.\n    </p>",
+      "Key" : "RELLOVER",
+      "Motivation" : "Relationship",
+      "Name" : "Lover",
+      "Source" : "Forged in Battle"
+    },
+    "RELMENTOR" : {
+      "Description" : "\n      <h4>Mentor</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "RELMENTOR",
+      "Motivation" : "Relationship",
+      "Name" : "Mentor",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "RELNEMESIS" : {
+      "Description" : "\n      <h4>Former Nemesis</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "RELNEMESIS",
+      "Motivation" : "Relationship",
+      "Name" : "Former Nemesis",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "RELORIGIN" : {
+      "Description" : "\n      <h4>Place of Origin</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "RELORIGIN",
+      "Motivation" : "Relationship",
+      "Name" : "Place of Origin",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "RELPARENTS" : {
+      "Description" : "\n      <h4>Parents</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "RELPARENTS",
+      "Motivation" : "Relationship",
+      "Name" : "Parents",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "RELPET" : {
+      "Description" : "\n      <h4>Pet</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "RELPET",
+      "Motivation" : "Relationship",
+      "Name" : "Pet",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "RELRIVAL" : {
+      "Description" : "\n      <h4>Rival</h4> <p>\n      Please see page 36 of the Forged in Battle Sourcebook for details.\n    </p>",
+      "Key" : "RELRIVAL",
+      "Motivation" : "Relationship",
+      "Name" : "Rival",
+      "Source" : "Forged in Battle"
+    },
+    "RELSIB" : {
+      "Description" : "\n      <h4>Sibling/Siblings</h4> <p>\n      Please see page 96 of the Edge of the Empire Core Rulebook for details.\n    </p>",
+      "Key" : "RELSIB",
+      "Motivation" : "Relationship",
+      "Name" : "Sibling/Siblings",
+      "Source" : "Edge of the Empire Core Rulebook"
+    },
+    "RELTECH" : {
+      "Description" : "\n      <h4>Tech</h4> <p>\n      Please see page 36 of the Forged in Battle Sourcebook for details.\n    </p>",
+      "Key" : "RELTECH",
+      "Motivation" : "Relationship",
+      "Name" : "Tech",
+      "Source" : "Forged in Battle"
+    },
+    "REWARDSM1" : {
+      "Description" : "\n      <h4>Credits</h4> <p>\n      Please see page 35 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARDSM1",
+      "Motivation" : "Reward",
+      "Name" : "Credits",
+      "Source" : "Fly Casual"
+    },
+    "REWARDSM10" : {
+      "Description" : "\n      <h4>Independence</h4> <p>\n      Please see page 35 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARDSM10",
+      "Motivation" : "Reward",
+      "Name" : "Independence",
+      "Source" : "Fly Casual"
+    },
+    "REWARDSM2" : {
+      "Description" : "\n      <h4>Power</h4> <p>\n      Please see page 35 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARDSM2",
+      "Motivation" : "Reward",
+      "Name" : "Power",
+      "Source" : "Fly Casual"
+    },
+    "REWARDSM3" : {
+      "Description" : "\n      <h4>Victory</h4> <p>\n      Please see page 35 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARDSM3",
+      "Motivation" : "Reward",
+      "Name" : "Victory",
+      "Source" : "Fly Casual"
+    },
+    "REWARDSM4" : {
+      "Description" : "\n      <h4>Beating the Odds</h4> <p>\n      Please see page 35 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARDSM4",
+      "Motivation" : "Reward",
+      "Name" : "Beating the Odds",
+      "Source" : "Fly Casual"
+    },
+    "REWARDSM5" : {
+      "Description" : "\n      <h4>Fame</h4> <p>\n      Please see page 35 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARDSM5",
+      "Motivation" : "Reward",
+      "Name" : "Fame",
+      "Source" : "Fly Casual"
+    },
+    "REWARDSM6" : {
+      "Description" : "\n      <h4>Esteem</h4> <p>\n      Please see page 35 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARDSM6",
+      "Motivation" : "Reward",
+      "Name" : "Esteem",
+      "Source" : "Fly Casual"
+    },
+    "REWARDSM7" : {
+      "Description" : "\n      <h4>Experience</h4> <p>\n      Please see page 35 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARDSM7",
+      "Motivation" : "Reward",
+      "Name" : "Experience",
+      "Source" : "Fly Casual"
+    },
+    "REWARDSM8" : {
+      "Description" : "\n      <h4>Moral</h4> <p>\n      Please see page 35 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARDSM8",
+      "Motivation" : "Reward",
+      "Name" : "Moral",
+      "Source" : "Fly Casual"
+    },
+    "REWARDSM9" : {
+      "Description" : "\n      <h4>Excitement</h4> <p>\n      Please see page 35 of the Fly Casual Sourcebook for details.\n    </p>",
+      "Key" : "REWARDSM9",
+      "Motivation" : "Reward",
+      "Name" : "Excitement",
+      "Source" : "Fly Casual"
     }
   },
   "Talents" : {

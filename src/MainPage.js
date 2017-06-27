@@ -18,7 +18,7 @@ class MainPage extends Component {
   constructor() {
       super();
       this.state = {
-        displayPage: <Specializations />,
+        displayPage: <Motivations />,
       };
     }
 
