@@ -20,7 +20,7 @@ class Skills extends Component {
 
   render() {
     return (
-      <div className='box' style={{height:'auto', width: '700px', marginBottom: '200px'}}>
+      <div className='box' style={{height:'auto', width: 'auto', marginBottom: '200px'}}>
         <table>
           <thead>
             <tr>
@@ -39,7 +39,7 @@ class Skills extends Component {
           <tbody>
             {Object.keys(this.state.Skills).map((key)=>
               <tr key={key} onClick={this.selectSkill.bind(this, key)}>
-                <td>{this.state.Skills[key].Name}</td>
+                <td style={{width: '800px'}}>{this.state.Skills[key].Name} ({this.state.Skills[key].CharKey})</td>
                 <td style={{textAlign: 'center'}}><img className='tinydie' src={`/images/x.png`} alt=''/></td>
                 <td>{this.state.Skills[key].TypeValue.slice(2)}</td>
                 <td style={{textAlign: 'center'}}>0</td>
