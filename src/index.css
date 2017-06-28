@@ -30,6 +30,10 @@ table{
 tr {
 }
 
+tbody tr:nth-child(odd) {
+   background-color: #BDBDBD;
+}
+
 td {
   font-size: 20px;
   padding: 2px 0 2px 0;
@@ -176,4 +180,10 @@ color: #212121;
   border-radius: 2px;
   width: 50px;
   border: 2px solid rgb(189, 189, 189);
+}
+
+.tinydie {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
 }
