@@ -46,7 +46,7 @@ class Skills extends Component {
                 <td style={{textAlign: 'center'}}>0</td>
                 <td style={{textAlign: 'center'}}>0</td>
                 <td style={{textAlign: 'center'}}>0</td>
-                <td style={{textAlign: 'center'}}>Buy</td>
+                <td style={{textAlign: 'center'}}><select><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></td>
                 <td style={{textAlign: 'center'}}>3</td>
                 <td><img className='tinydie' src={`/images/green.png`} alt=''/><img className='tinydie' src={`/images/green.png`} alt=''/><img className='tinydie' src={`/images/green.png`} alt=''/></td>
               </tr>
