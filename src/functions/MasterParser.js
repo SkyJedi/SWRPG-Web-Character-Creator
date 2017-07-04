@@ -31,6 +31,18 @@ function Build() {
     firebase.database().ref().child('master').child('SpecificMotivations').set(importXML);
   });
 
+  parser.loadXML('Weapons', null, (importXML) => {
+    firebase.database().ref().child('master').child('Weapons').set(importXML);
+  });
+
+  parser.loadXML('Armor', null, (importXML) => {
+    firebase.database().ref().child('master').child('Armor').set(importXML);
+  });
+
+  parser.loadXML('Gear', null, (importXML) => {
+    firebase.database().ref().child('master').child('Gear').set(importXML);
+  });
+
   let listCareer = {};
   List.Careers.forEach((Career) => {
     parser.loadXML('Careers', Career, (importXML) => {

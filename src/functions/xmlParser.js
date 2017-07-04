@@ -39,6 +39,15 @@ function loadXML(type, file, cb) {
           basics = basics.concat(['Motivation'])
           importXML = masterParse(this.responseXML, 'SpecificMotivation', basics);
           break;
+        case 'Weapons':
+          importXML = Weapons(this.responseXML, basics);
+          break;
+        case 'Armor':
+          importXML = Armor(this.responseXML, basics);
+          break;
+        case 'Gear':
+          importXML = Gear(this.responseXML, basics);
+          break;
         default:
           break;
       }
@@ -63,37 +72,57 @@ function masterParse(xmlDoc, type, basics) {
 }
 
 function formatDescription(object) {
-  object['Description'] = object['Description'].replace(/\[H4\]/g, '<h4>').replace(/\[h4\]/g, '</h4> <p>').replace(/\[P\]/g, '</p> <p>').replace(/\[B\]/g, '<b>').replace(/\[b\]/g, '</b>') + '</p>';
+  object['Description'] = object['Description'].replace(/\[H4\]/g, '<h4>').replace(/\[h4\]/g, '</h4> <p>').replace(/\[H3\]/g, '<h3>').replace(/\[h3\]/g, '</h3> <p>').replace(/\[P\]/g, '</p> <p>').replace(/\[B\]/g, '<b>').replace(/\[b\]/g, '</b>') + '</p>';
   return object;
 }
 
 function parseBasics(xml, basics) {
   let basicsArray = {};
   for(var j=0; j<basics.length; j++) {
+    if (basics[j] === 'DieModifiers' && xml.getElementsByTagName(basics[j])[0] !== undefined) {
+      let DieModifiers = parseChildrenObject(xml, 'DieModifier')
+      basicsArray['DieModifiers'] = DieModifiers
+    } else if (xml.getElementsByTagName(basics[j])[0] !== undefined) {
     basicsArray[basics[j]] = xml.getElementsByTagName(basics[j])[0].textContent;
+    } else {
+    basicsArray[basics[j]] = false;
+    }
   }
-  return formatDescription(basicsArray);
+  if (basicsArray.Description !== undefined) formatDescription(basicsArray);
+  return basicsArray;
 }
 
 function parseSource (xml) {
   let source = [];
-  if (xml.getElementsByTagName('Sources')[0] === undefined) return xml.getElementsByTagName('Source')[0].textContent;
+  if (xml.getElementsByTagName('Source').length === 0) return 0;
   xml = xml.getElementsByTagName('Source')
-  if (xml.length > 0) {
-    for (var k=0; k<xml.length; k++) {
-    source.push(xml[k].textContent + ' ' +xml[k].attributes[0].nodeName + ' ' + xml[k].attributes[0].value);
-    }
+  for (var k=0; k<xml.length; k++) {
+    let text = xml[k].textContent + ' ';
+    if (xml[k].attributes.length > 0) text += xml[k].attributes[0].nodeName + ' ' + xml[k].attributes[0].value + ' ';
+    source.push(text);
   }
   return source;
 }
 
 function parseChildren (xml, parent) {
   let children = [];
-  if (xml.getElementsByTagName(parent)[0] === undefined) return xml.getElementsByTagName(parent)[0].textContent;
+  if (xml.getElementsByTagName(parent).length === 0) return 0;
   xml = xml.getElementsByTagName(parent)[0].children
   if (xml.length > 0) {
     for (var k=0; k<xml.length; k++) {
       children.push(xml[k].textContent)
+    }
+  }
+  return children;
+}
+
+function parseChildrenObject (xml, parent) {
+  let children = {};
+  if (xml.getElementsByTagName(parent).length === 0) return 0;
+  xml = xml.getElementsByTagName(parent)[0].children
+  if (xml.length > 0) {
+    for (var k=0; k<xml.length; k++) {
+      children[xml[k].nodeName] = xml[k].textContent;
     }
   }
   return children;
@@ -191,7 +220,72 @@ function Motivations (xml, basics) {
     final[key] = childArray;
   }
   return final;
+}
 
+function Weapons (xml, basics) {
+  basics = basics.concat(['SkillKey', 'Damage', 'Crit', 'RangeValue', 'Encumbrance', 'HP', 'Price', 'Rarity', 'Type', 'Restricted'])
+  let final = {};
+  let x = xml.getElementsByTagName('Weapon');
+  for(var i=0; i<x.length; i++) {
+    let key =  x[i].getElementsByTagName('Key')[0].textContent;
+    let childArray = parseBasics(x[i], basics);
+    childArray['Source'] = parseSource(x[i]);
+    childArray['Categories'] = parseChildren(x[i], 'Categories')
+    let xQual = x[i].getElementsByTagName('Quality')
+    let Qualities = []
+    for(var j=0; j<xQual.length; j++) {
+      Qualities.push(parseBasics(xQual[j], ['Key', 'Count']));
+    }
+    childArray['Qualities'] = Qualities;
+    let xMod = x[i].getElementsByTagName('Mod')
+    let Mods = []
+    for(var k=0; k<xMod.length; k++) {
+      Mods.push(parseBasics(xMod[k], ['MiscDesc']));
+    }
+    childArray['BaseMods'] = Mods;
+    final[key] = childArray;
+  }
+  return final;
+}
+
+function Armor (xml, basics) {
+  basics = basics.concat(['Type', 'Defense', 'Soak', 'Price', 'Encumbrance', 'HP', 'Rarity', 'Restricted'])
+  let final = {};
+  let x = xml.getElementsByTagName('Armor');
+  for(var i=0; i<x.length; i++) {
+    let key =  x[i].getElementsByTagName('Key')[0].textContent;
+    let childArray = parseBasics(x[i], basics);
+    childArray['Source'] = parseSource(x[i]);
+    childArray['Categories'] = parseChildren(x[i], 'Categories')
+    let xMod = x[i].getElementsByTagName('Mod')
+    let Mods = []
+    for(var j=0; j<xMod.length; j++) {
+      Mods.push(parseBasics(xMod[j], ['Key', 'Count', 'MiscDesc', 'DieModifiers']));
+    }
+    childArray['BaseMods'] = Mods;
+    final[key] = childArray;
+  }
+  return final;
+}
+
+function Gear (xml, basics) {
+  basics = basics.concat(['Short', 'Encumbrance', 'Price', 'Rarity', 'Type', 'HP', 'Restricted', ])
+  let final = {};
+  let x = xml.getElementsByTagName('Gear');
+  for(var i=0; i<x.length; i++) {
+    let key =  x[i].getElementsByTagName('Key')[0].textContent;
+    let childArray = parseBasics(x[i], basics);
+    childArray['Source'] = parseSource(x[i]);
+    childArray['Categories'] = parseChildren(x[i], 'Categories')
+    let xMod = x[i].getElementsByTagName('Mod')
+    let Mods = []
+    for(var j=0; j<xMod.length; j++) {
+      Mods.push(parseBasics(xMod[j], ['Key', 'Count', 'MiscDesc', 'DieModifiers']));
+    }
+    childArray['BaseMods'] = Mods;
+    final[key] = childArray;
+  }
+  return final;
 }
 
 module.exports = {
