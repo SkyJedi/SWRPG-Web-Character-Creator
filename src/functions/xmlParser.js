@@ -18,6 +18,9 @@ function loadXML(type, file, cb) {
         case 'Obligations':
           importXML = masterParse(this.responseXML, 'Obligation', basics);
           break;
+        case 'Duty':
+          importXML = masterParse(this.responseXML, 'Duty', basics);
+          break;
         case 'Careers':
           importXML = Careers(this.responseXML, basics);
           break;

@@ -1990,6 +1990,158 @@
       "Source" : [ "Age of Rebellion Core Rulebook Page 43 " ]
     }
   },
+  "Duty" : {
+    "AIRSUP" : {
+      "Description" : "\n      <h4>Air Superiority</h4> <p>\n      Please see page 19 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "AIRSUP",
+      "Name" : "Air Superiority",
+      "Source" : [ "Stay on Target Page 19 " ]
+    },
+    "CAMAR" : {
+      "Description" : "\n      <h4>Camaraderie</h4> <p>\n      See page 17 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "CAMAR",
+      "Name" : "Camaraderie",
+      "Source" : [ "Lead by Example Page 17 " ]
+    },
+    "CLEARSKIES" : {
+      "Description" : "\n      <h4>Clear Skies</h4> <p>\n      See page 17 of the Forged in Battle Sourcebook for details.\n    </p>",
+      "Key" : "CLEARSKIES",
+      "Name" : "Clear Skies",
+      "Source" : [ "Forged in Battle Page 17 " ]
+    },
+    "COMBATVICTORY" : {
+      "Description" : "\n      <h4>Combat Victory</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "COMBATVICTORY",
+      "Name" : "Combat Victory",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "COMMFAC" : {
+      "Description" : "\n      <h4>Communication Facilitation</h4> <p>\n      Please see page 17 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "COMMFAC",
+      "Name" : "Communication Facilitation",
+      "Source" : [ "Desperate Allies Page 17 " ]
+    },
+    "COUNTERINTELLIGENCE" : {
+      "Description" : "\n      <h4>Counter Intelligence</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "COUNTERINTELLIGENCE",
+      "Name" : "Counter Intelligence",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "ENEMYDEMOR" : {
+      "Description" : "\n      <h4>Enemy Demoralization</h4> <p>\n      See page 17 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "ENEMYDEMOR",
+      "Name" : "Enemy Demoralization",
+      "Source" : [ "Lead by Example Page 17 " ]
+    },
+    "GROUNDSUP" : {
+      "Description" : "\n      <h4>Ground Superiority</h4> <p>\n      Please see page 19 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "GROUNDSUP",
+      "Name" : "Ground Superiority",
+      "Source" : [ "Stay on Target Page 19 " ]
+    },
+    "INTELLIGENCE" : {
+      "Description" : "\n      <h4>Intelligence</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "INTELLIGENCE",
+      "Name" : "Intelligence",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "INTERNALSECURITY" : {
+      "Description" : "\n      <h4>Internal Security</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "INTERNALSECURITY",
+      "Name" : "Internal Security",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "LOSSPREV" : {
+      "Description" : "\n      <h4>Loss Prevention</h4> <p>\n      See page 17 of the Lead by Example Sourcebook for details.\n    </p>",
+      "Key" : "LOSSPREV",
+      "Name" : "Loss Prevention",
+      "Source" : [ "Lead by Example Page 17 " ]
+    },
+    "MORALE" : {
+      "Description" : "\n      <h4>Morale</h4> <p>\n      See page 17 of the Forged in Battle Sourcebook for details.\n    </p>",
+      "Key" : "MORALE",
+      "Name" : "Morale",
+      "Source" : [ "Forged in Battle Page 17 " ]
+    },
+    "OPPLAN" : {
+      "Description" : "\n      <h4>Operation Planning</h4> <p>\n      Please see page 17 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "OPPLAN",
+      "Name" : "Operation Planning",
+      "Source" : [ "Desperate Allies Page 17 " ]
+    },
+    "PERSONNEL" : {
+      "Description" : "\n      <h4>Personnel</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "PERSONNEL",
+      "Name" : "Personnel",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "PLACHUNT" : {
+      "Description" : "\n      <h4>Placard Hunter</h4> <p>\n      Please see page 19 of the Stay on Target Sourcebook, or page 17 of the Forged in Battle Sourcebook, for details.\n    </p>",
+      "Key" : "PLACHUNT",
+      "Name" : "Placard Hunter",
+      "Source" : [ "Stay on Target Page 19 ", "Forged in Battle Page 17 " ]
+    },
+    "POLITICALSUPPORT" : {
+      "Description" : "\n      <h4>Political Support</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "POLITICALSUPPORT",
+      "Name" : "Political Support",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "PSYCHWAR" : {
+      "Description" : "\n      <h4>Psychological Warfare</h4> <p>\n      See page 17 of the Forged in Battle Sourcebook for details.\n    </p>",
+      "Key" : "PSYCHWAR",
+      "Name" : "Psychological Warfare",
+      "Source" : [ "Forged in Battle Page 17 " ]
+    },
+    "REBELBASE" : {
+      "Description" : "\n      <h4>Rebel Base</h4> <p>\n      Please see page 87 of the Desperate Allies Sourcebook for details.\n    </p>",
+      "Key" : "REBELBASE",
+      "Name" : "Rebel Base",
+      "Source" : [ "Desperate Allies Page 87 " ]
+    },
+    "RECRUITING" : {
+      "Description" : "\n      <h4>Recruiting</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "RECRUITING",
+      "Name" : "Recruiting",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "RESOURCEACQUISITION" : {
+      "Description" : "\n      <h4>Resource Acquisition</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "RESOURCEACQUISITION",
+      "Name" : "Resource Acquisition",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "SABOTAGE" : {
+      "Description" : "\n      <h4>Sabotage</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "SABOTAGE",
+      "Name" : "Sabotage",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "SPACESUPERIORITY" : {
+      "Description" : "\n      <h4>Space Superiority</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "SPACESUPERIORITY",
+      "Name" : "Space Superiority",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "SUPPORT" : {
+      "Description" : "\n      <h4>Support</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "SUPPORT",
+      "Name" : "Support",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "TECHPROCUREMENT" : {
+      "Description" : "\n      <h4>Tech Procurement</h4> <p>\n      Please see page 47 of the Age of Rebellion Core Rulebook for details.\n    </p>",
+      "Key" : "TECHPROCUREMENT",
+      "Name" : "Tech Procurement",
+      "Source" : [ "Age of Rebellion Core Rulebook Page 47 " ]
+    },
+    "TECHSUPERIORITY" : {
+      "Description" : "\n      <h4>Tech Superiority</h4> <p>\n      Please see page 19 of the Stay on Target Sourcebook for details.\n    </p>",
+      "Key" : "TECHSUPERIORITY",
+      "Name" : "Tech Superiority",
+      "Source" : [ "Stay on Target Page 19 " ]
+    }
+  },
   "Gear" : {
     "3MALCOMLINK" : {
       "BaseMods" : [ {

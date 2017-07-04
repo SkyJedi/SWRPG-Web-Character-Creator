@@ -38,6 +38,7 @@ td {
   font-size: 20px;
   padding: 2px 0 2px 0;
   width: 250px;
+  vertical-align: middle;
   //border-bottom: 3px solid #757575;
 
 }

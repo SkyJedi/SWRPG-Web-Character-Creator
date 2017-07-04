@@ -15,6 +15,10 @@ function Build() {
     firebase.database().ref().child('master').child('Obligations').set(importXML);
   });
 
+  parser.loadXML('Duty', null, (importXML) => {
+    firebase.database().ref().child('master').child('Duty').set(importXML);
+  });
+
   parser.loadXML('Skills', null, (importXML) => {
     firebase.database().ref().child('master').child('Skills').set(importXML);
   });
