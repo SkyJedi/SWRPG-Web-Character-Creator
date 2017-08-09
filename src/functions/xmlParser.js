@@ -248,6 +248,9 @@ function Weapons (xml, basics) {
     childArray['BaseMods'] = Mods;
     final[key] = childArray;
   }
+  Object.keys(final).forEach((key)=> {
+    final[key].RangeValue = final[key].RangeValue.slice(2);
+  });
   return final;
 }
 

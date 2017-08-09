@@ -42480,7 +42480,7 @@
         "Count" : "2",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -42501,7 +42501,7 @@
         "Count" : "1",
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -42525,7 +42525,7 @@
         "Count" : false,
         "Key" : "KNOCKDOWN"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -42555,7 +42555,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -42582,7 +42582,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -42618,7 +42618,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -42642,7 +42642,7 @@
         "Count" : "0",
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -42666,7 +42666,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -42696,7 +42696,7 @@
         "Count" : "3",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -42720,7 +42720,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -42741,7 +42741,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "LTSABER",
@@ -42770,7 +42770,7 @@
         "Count" : "3",
         "Key" : "LINKED"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : false,
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -42793,7 +42793,7 @@
         "Count" : "1",
         "Key" : "BLAST"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : false,
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -42820,7 +42820,7 @@
         "Count" : "3",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -42847,7 +42847,7 @@
         "Count" : "4",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "MECH",
@@ -42877,7 +42877,7 @@
         "Count" : false,
         "Key" : "SUNDER"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -42904,7 +42904,7 @@
         "Count" : "2",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -42931,7 +42931,7 @@
         "Count" : "1",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -42961,7 +42961,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -42990,7 +42990,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -43011,7 +43011,7 @@
         "Count" : "1",
         "Key" : "AUTOFIRE"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "3",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -43038,7 +43038,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "MECH",
@@ -43065,7 +43065,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "BRAWL",
@@ -43084,7 +43084,7 @@
       "Key" : "BARADIUMCHRG",
       "Name" : "Baradium Charge",
       "Price" : "750",
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "MECH",
@@ -43108,7 +43108,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -43129,7 +43129,7 @@
         "Count" : "1",
         "Key" : "BREACH"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -43153,7 +43153,7 @@
         "Count" : "3",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -43183,7 +43183,7 @@
         "Count" : false,
         "Key" : "SUNDER"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -43210,7 +43210,7 @@
         "Count" : "1",
         "Key" : "DISORIENT"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -43237,7 +43237,7 @@
         "Count" : false,
         "Key" : "SUNDER"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -43258,7 +43258,7 @@
         "Count" : "3",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -43284,7 +43284,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43301,7 +43301,7 @@
       "Key" : "BLASTCANHVY",
       "Name" : "Heavy Blaster Cannon",
       "Price" : "5000",
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "3",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -43318,7 +43318,7 @@
       "Key" : "BLASTCANLT",
       "Name" : "Light Blaster Cannon",
       "Price" : "4000",
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "2",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -43339,7 +43339,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -43363,7 +43363,7 @@
         "Count" : "1",
         "Key" : "ACCURATE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -43387,7 +43387,7 @@
         "Count" : "1",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "3",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -43408,7 +43408,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -43429,7 +43429,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43450,7 +43450,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43480,7 +43480,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -43504,7 +43504,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGEDROID"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43528,7 +43528,7 @@
         "Count" : "2",
         "Key" : "CUMBERSOME"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -43549,7 +43549,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43573,7 +43573,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43600,7 +43600,7 @@
         "Count" : "1",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -43621,7 +43621,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43645,7 +43645,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43669,7 +43669,7 @@
         "Count" : "1",
         "Key" : "ACCURATE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43693,7 +43693,7 @@
         "Count" : false,
         "Key" : "SUPERIOR"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43720,7 +43720,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43741,7 +43741,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43762,7 +43762,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43783,7 +43783,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -43807,7 +43807,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43831,7 +43831,7 @@
         "Count" : "1",
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43855,7 +43855,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -43876,7 +43876,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -43900,7 +43900,7 @@
         "Count" : "1",
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -43921,7 +43921,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -43945,7 +43945,7 @@
         "Count" : "3",
         "Key" : "CUMBERSOME"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -43966,7 +43966,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -43992,7 +43992,7 @@
         "Count" : "1",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "BRAWL",
@@ -44019,7 +44019,7 @@
         "Count" : "3",
         "Key" : "ENSNARE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "2",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -44043,7 +44043,7 @@
         "Count" : "1",
         "Key" : "ACCURATE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -44067,7 +44067,7 @@
         "Count" : false,
         "Key" : "KNOCKDOWN"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -44096,7 +44096,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -44117,7 +44117,7 @@
         "Count" : "3",
         "Key" : "DISORIENT"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "0",
       "Restricted" : false,
       "SkillKey" : "BRAWL",
@@ -44138,7 +44138,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -44162,7 +44162,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -44185,7 +44185,7 @@
         "Count" : "6",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -44218,7 +44218,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -44251,7 +44251,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -44281,7 +44281,7 @@
         "Count" : "1",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -44305,7 +44305,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -44329,7 +44329,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -44362,7 +44362,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -44395,7 +44395,7 @@
         "Count" : "2",
         "Key" : "GUIDED"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -44422,7 +44422,7 @@
         "Count" : "20",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -44446,7 +44446,7 @@
         "Count" : "2",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -44476,7 +44476,7 @@
         "Count" : "2",
         "Key" : "DEFLECTION"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -44500,7 +44500,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -44533,7 +44533,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -44559,7 +44559,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -44583,7 +44583,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -44610,7 +44610,7 @@
         "Count" : "3",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -44634,7 +44634,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "3",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -44664,7 +44664,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -44691,7 +44691,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -44715,7 +44715,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -44731,7 +44731,7 @@
       "Key" : "DETONITECHRG",
       "Name" : "Detonite Charge",
       "Price" : "50",
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "2",
       "Restricted" : "false",
       "SkillKey" : "MECH",
@@ -44761,7 +44761,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -44787,7 +44787,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -44811,7 +44811,7 @@
         "Count" : "2",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -44832,7 +44832,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "2",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -44853,7 +44853,7 @@
         "Count" : "4",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -44877,7 +44877,7 @@
         "Count" : "5",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -44897,7 +44897,7 @@
       "Key" : "DL7HBLASTPISTHVY",
       "Name" : "DL-7h Heavy Blaster Pistol",
       "Price" : "850",
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -44921,7 +44921,7 @@
         "Count" : "2",
         "Key" : "CUMBERSOME"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -44945,7 +44945,7 @@
         "Count" : "3",
         "Key" : "VICIOUSDROID"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -44972,7 +44972,7 @@
         "Count" : "1",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -45002,7 +45002,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -45029,7 +45029,7 @@
         "Count" : "5",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "3",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -45062,7 +45062,7 @@
         "Count" : "3",
         "Key" : "UNWIELDY"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -45090,7 +45090,7 @@
         "Count" : "1",
         "Key" : "ION"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -45119,7 +45119,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -45143,7 +45143,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -45167,7 +45167,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -45197,7 +45197,7 @@
         "Count" : "1",
         "Key" : "DEFLECTION"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -45221,7 +45221,7 @@
         "Count" : "3",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -45248,7 +45248,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -45271,7 +45271,7 @@
         "Count" : "0",
         "Key" : "INFERIOR"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "1",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -45295,7 +45295,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "3",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -45331,7 +45331,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -45364,7 +45364,7 @@
         "Count" : "3",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -45391,7 +45391,7 @@
         "Count" : "3",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -45421,7 +45421,7 @@
         "Count" : "3",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -45445,7 +45445,7 @@
         "Count" : "5",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -45472,7 +45472,7 @@
         "Count" : "5",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -45499,7 +45499,7 @@
         "Count" : "3",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -45526,7 +45526,7 @@
         "Count" : "4",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -45550,7 +45550,7 @@
         "Count" : "8",
         "Key" : "BLAST"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -45574,7 +45574,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -45598,7 +45598,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -45622,7 +45622,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -45646,7 +45646,7 @@
         "Count" : "3",
         "Key" : "GUIDED"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -45676,7 +45676,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -45703,7 +45703,7 @@
         "Count" : "4",
         "Key" : "BLAST"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -45730,7 +45730,7 @@
         "Count" : "2",
         "Key" : "BURN"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -45757,7 +45757,7 @@
         "Count" : "2",
         "Key" : "ENSNARE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -45784,7 +45784,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -45814,7 +45814,7 @@
         "Count" : "3",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "2",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -45838,7 +45838,7 @@
         "Count" : "3",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -45862,7 +45862,7 @@
         "Count" : "3",
         "Key" : "DISORIENT"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "2",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -45885,7 +45885,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -45906,7 +45906,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -45930,7 +45930,7 @@
         "Count" : "3",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -45954,7 +45954,7 @@
         "Count" : "0",
         "Key" : "BLAST"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -45981,7 +45981,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -46009,7 +46009,7 @@
         "Count" : "5",
         "Key" : "ENSNARE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -46036,7 +46036,7 @@
         "Count" : "6",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "4",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -46069,7 +46069,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -46093,7 +46093,7 @@
         "Count" : "2",
         "Key" : "DEFLECTION"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -46120,7 +46120,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -46144,7 +46144,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -46171,7 +46171,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -46195,7 +46195,7 @@
         "Count" : "0",
         "Key" : "KNOCKDOWN"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -46225,7 +46225,7 @@
         "Count" : "4",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "3",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -46249,7 +46249,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -46276,7 +46276,7 @@
         "Count" : "4",
         "Key" : "CUMBERSOME"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -46306,7 +46306,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -46339,7 +46339,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -46366,7 +46366,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -46399,7 +46399,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -46426,7 +46426,7 @@
         "Count" : "2",
         "Key" : "GUIDED"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -46453,7 +46453,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -46480,7 +46480,7 @@
         "Count" : "2",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -46510,7 +46510,7 @@
         "Count" : "0",
         "Key" : "STUNDAMAGEDROID"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -46534,7 +46534,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -46561,7 +46561,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -46582,7 +46582,7 @@
         "Count" : false,
         "Key" : "ION"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -46603,7 +46603,7 @@
         "Count" : false,
         "Key" : "ION"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -46630,7 +46630,7 @@
         "Count" : "4",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -46660,7 +46660,7 @@
         "Count" : "1",
         "Key" : "PREPARE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "2",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -46684,7 +46684,7 @@
         "Count" : "1",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -46714,7 +46714,7 @@
         "Count" : "1",
         "Key" : "LINKED"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -46731,7 +46731,7 @@
       "Key" : "KNIFE",
       "Name" : "Combat Knife",
       "Price" : "25",
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "1",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -46755,7 +46755,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -46785,7 +46785,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -46806,7 +46806,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -46830,7 +46830,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "9",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -46857,7 +46857,7 @@
         "Count" : "5",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -46890,7 +46890,7 @@
         "Count" : "1",
         "Key" : "DISORIENT"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -46926,7 +46926,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -46958,7 +46958,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -46982,7 +46982,7 @@
         "Count" : "1",
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -47003,7 +47003,7 @@
         "Count" : "1",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "0",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -47020,7 +47020,7 @@
       "Key" : "LASERHVY",
       "Name" : "Heavy Laser Cannon",
       "Price" : "7500",
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -47041,7 +47041,7 @@
         "Count" : "1",
         "Key" : "ACCURATE"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -47058,7 +47058,7 @@
       "Key" : "LASERLT",
       "Name" : "Light Laser Cannon",
       "Price" : "5500",
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -47075,7 +47075,7 @@
       "Key" : "LASERMED",
       "Name" : "Medium Laser Cannon",
       "Price" : "7000",
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -47096,7 +47096,7 @@
         "Count" : "1",
         "Key" : "ACCURATE"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -47120,7 +47120,7 @@
         "Count" : "3",
         "Key" : "LINKED"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -47144,7 +47144,7 @@
         "Count" : "0",
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -47174,7 +47174,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -47207,7 +47207,7 @@
         "Count" : "4",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -47234,7 +47234,7 @@
         "Count" : "1",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -47257,7 +47257,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -47284,7 +47284,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "LTSABER",
@@ -47308,7 +47308,7 @@
         "Count" : false,
         "Key" : "SUNDER"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "LTSABER",
@@ -47325,7 +47325,7 @@
       "Key" : "LTSABERBASICHILT",
       "Name" : "Basic Lightsaber Hilt",
       "Price" : "300",
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "LTSABER",
@@ -47355,7 +47355,7 @@
         "Count" : false,
         "Key" : "SUNDER"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "LTSABER",
@@ -47379,7 +47379,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : false,
       "SkillKey" : "LTSABER",
@@ -47409,7 +47409,7 @@
         "Count" : "3",
         "Key" : "UNWIELDY"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "LTSABER",
@@ -47433,7 +47433,7 @@
         "Count" : "3",
         "Key" : "UNWIELDY"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "LTSABER",
@@ -47466,7 +47466,7 @@
         "Count" : "4",
         "Key" : "UNWIELDY"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "LTSABER",
@@ -47496,7 +47496,7 @@
         "Count" : "4",
         "Key" : "UNWIELDY"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "LTSABER",
@@ -47528,7 +47528,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "LTSABER",
@@ -47558,7 +47558,7 @@
         "Count" : false,
         "Key" : "SUNDER"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "LTSABER",
@@ -47582,7 +47582,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "LTSABER",
@@ -47612,7 +47612,7 @@
         "Count" : false,
         "Key" : "SUNDER"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "LTSABER",
@@ -47636,7 +47636,7 @@
         "Count" : "1",
         "Key" : "ACCURATE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "LTSABER",
@@ -47672,7 +47672,7 @@
         "Count" : "3",
         "Key" : "UNWIELDY"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "LTSABER",
@@ -47705,7 +47705,7 @@
         "Count" : "3",
         "Key" : "UNWIELDY"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "9",
       "Restricted" : "false",
       "SkillKey" : "LTSABER",
@@ -47726,7 +47726,7 @@
         "Count" : "1",
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "LTSABER",
@@ -47756,7 +47756,7 @@
         "Count" : "4",
         "Key" : "UNWIELDY"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "LTSABER",
@@ -47777,7 +47777,7 @@
         "Count" : "1",
         "Key" : "TRACTOR"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "0",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -47807,7 +47807,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "9",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -47840,7 +47840,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -47864,7 +47864,7 @@
         "Count" : "1",
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -47887,7 +47887,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : false,
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -47920,7 +47920,7 @@
         "Count" : "2",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "0",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -47944,7 +47944,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -47968,7 +47968,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -47995,7 +47995,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -48022,7 +48022,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -48049,7 +48049,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -48069,7 +48069,7 @@
       "Key" : "MICROROCKPISTOL",
       "Name" : "Micro-Rocket Launcher Pistol",
       "Price" : "500",
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -48095,7 +48095,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -48122,7 +48122,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "MECH",
@@ -48149,7 +48149,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : "true",
       "SkillKey" : "MECH",
@@ -48173,7 +48173,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "MECH",
@@ -48200,7 +48200,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "MECH",
@@ -48224,7 +48224,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "MECH",
@@ -48257,7 +48257,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "MECH",
@@ -48278,7 +48278,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrNoRange",
+      "RangeValue" : "NoRange",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -48311,7 +48311,7 @@
         "Count" : "5",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "0",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -48335,7 +48335,7 @@
         "Count" : "2",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -48362,7 +48362,7 @@
         "Count" : "4",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -48392,7 +48392,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -48419,7 +48419,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -48449,7 +48449,7 @@
         "Count" : "2",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -48476,7 +48476,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -48506,7 +48506,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -48542,7 +48542,7 @@
         "Count" : "1",
         "Key" : "PREPARE"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -48572,7 +48572,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -48593,7 +48593,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -48619,7 +48619,7 @@
         "Count" : "2",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrNoRange",
+      "RangeValue" : "NoRange",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -48645,7 +48645,7 @@
         "Count" : "2",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrNoRange",
+      "RangeValue" : "NoRange",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -48669,7 +48669,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -48693,7 +48693,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -48720,7 +48720,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "0",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -48747,7 +48747,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -48777,7 +48777,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -48801,7 +48801,7 @@
         "Count" : "3",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -48828,7 +48828,7 @@
         "Count" : "0",
         "Key" : "KNOCKDOWN"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -48849,7 +48849,7 @@
         "Count" : "0",
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -48873,7 +48873,7 @@
         "Count" : "2",
         "Key" : "CUMBERSOME"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -48903,7 +48903,7 @@
         "Count" : false,
         "Key" : "KNOCKDOWN"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -48927,7 +48927,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -48951,7 +48951,7 @@
         "Count" : "0",
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -48978,7 +48978,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -48999,7 +48999,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -49020,7 +49020,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -49041,7 +49041,7 @@
         "Count" : "1",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -49068,7 +49068,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "MELEE",
@@ -49095,7 +49095,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -49125,7 +49125,7 @@
         "Count" : false,
         "Key" : "KNOCKDOWN"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "1",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -49155,7 +49155,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -49174,7 +49174,7 @@
       "Key" : "NEEDLEGLOVES",
       "Name" : "Needle Gloves",
       "Price" : "750",
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "BRAWL",
@@ -49198,7 +49198,7 @@
         "Count" : false,
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -49224,7 +49224,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -49251,7 +49251,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -49277,7 +49277,7 @@
         "Count" : "3",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -49301,7 +49301,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -49322,7 +49322,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -49349,7 +49349,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -49376,7 +49376,7 @@
         "Count" : "3",
         "Key" : "STUN"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "3",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -49403,7 +49403,7 @@
         "Count" : false,
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -49430,7 +49430,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "LTSABER",
@@ -49454,7 +49454,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -49470,7 +49470,7 @@
       "Key" : "PLASMACHRG",
       "Name" : "Plasma Charge",
       "Price" : "200",
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "MECH",
@@ -49497,7 +49497,7 @@
         "Count" : "2",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -49518,7 +49518,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "2",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -49549,7 +49549,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -49576,7 +49576,7 @@
         "Count" : "2",
         "Key" : "UNWIELDY"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -49603,7 +49603,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -49630,7 +49630,7 @@
         "Count" : "16",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -49657,7 +49657,7 @@
         "Count" : "16",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -49677,7 +49677,7 @@
       "Key" : "PROTONGRNAD",
       "Name" : "Proton Grenade",
       "Price" : "60",
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "MECH",
@@ -49707,7 +49707,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -49740,7 +49740,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -49770,7 +49770,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -49797,7 +49797,7 @@
         "Count" : "1",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -49824,7 +49824,7 @@
         "Count" : "2",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -49848,7 +49848,7 @@
         "Count" : "1",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -49872,7 +49872,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -49913,7 +49913,7 @@
         "Count" : "2",
         "Key" : "PREPARE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -49939,7 +49939,7 @@
         "Count" : false,
         "Key" : "CORTOSIS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "BRAWL",
@@ -49960,7 +49960,7 @@
         "Count" : false,
         "Key" : "CORTOSIS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -49984,7 +49984,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -50010,7 +50010,7 @@
         "Count" : false,
         "Key" : "KNOCKDOWN"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "3",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -50037,7 +50037,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -50067,7 +50067,7 @@
         "Count" : "1",
         "Key" : "DISORIENT"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -50097,7 +50097,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "1",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -50121,7 +50121,7 @@
         "Count" : "1",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "0",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -50148,7 +50148,7 @@
         "Count" : "0",
         "Key" : "SUPERIOR"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -50172,7 +50172,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -50199,7 +50199,7 @@
         "Count" : "0",
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -50223,7 +50223,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -50252,7 +50252,7 @@
         "Count" : "2",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -50279,7 +50279,7 @@
         "Count" : "5",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -50303,7 +50303,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "BRAWL",
@@ -50332,7 +50332,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "SURV",
@@ -50358,7 +50358,7 @@
         "Count" : "3",
         "Key" : "STUN"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "BRAWL",
@@ -50379,7 +50379,7 @@
         "Count" : "3",
         "Key" : "STUN"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "2",
       "Restricted" : false,
       "SkillKey" : "BRAWL",
@@ -50402,7 +50402,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -50435,7 +50435,7 @@
         "Count" : "2",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -50456,7 +50456,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -50489,7 +50489,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "10",
       "Restricted" : "true",
       "SkillKey" : "MELEE",
@@ -50516,7 +50516,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -50533,7 +50533,7 @@
       "Key" : "SLUGPIS",
       "Name" : "Slugthrower Pistol",
       "Price" : "100",
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "3",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -50554,7 +50554,7 @@
         "Count" : false,
         "Key" : "AUTOFIRE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -50575,7 +50575,7 @@
         "Count" : "2",
         "Key" : "CUMBERSOME"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "3",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -50599,7 +50599,7 @@
         "Count" : "2",
         "Key" : "CUMBERSOME"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -50623,7 +50623,7 @@
         "Count" : "1",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -50644,7 +50644,7 @@
         "Count" : "2",
         "Key" : "DISORIENT"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -50677,7 +50677,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -50701,7 +50701,7 @@
         "Count" : "8",
         "Key" : "STUN"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -50737,7 +50737,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -50764,7 +50764,7 @@
         "Count" : "2",
         "Key" : "DISORIENT"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -50788,7 +50788,7 @@
         "Count" : "3",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -50818,7 +50818,7 @@
         "Count" : "8",
         "Key" : "STUN"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -50841,7 +50841,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -50862,7 +50862,7 @@
         "Count" : "2",
         "Key" : "DISORIENT"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -50892,7 +50892,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -50919,7 +50919,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -50949,7 +50949,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "8",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -50976,7 +50976,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -51003,7 +51003,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "0",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -51027,7 +51027,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "BRAWL",
@@ -51054,7 +51054,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -51078,7 +51078,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -51116,7 +51116,7 @@
         "Count" : "6",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "9",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",
@@ -51146,7 +51146,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -51167,7 +51167,7 @@
         "Count" : "3",
         "Key" : "ENSNARE"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -51194,7 +51194,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : "true",
       "SkillKey" : "MELEE",
@@ -51218,7 +51218,7 @@
         "Count" : "2",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "3",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -51251,7 +51251,7 @@
         "Count" : "4",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -51275,7 +51275,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "RANGLT",
@@ -51298,7 +51298,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -51331,7 +51331,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -51352,7 +51352,7 @@
         "Count" : "6",
         "Key" : "TRACTOR"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -51373,7 +51373,7 @@
         "Count" : "2",
         "Key" : "TRACTOR"
       } ],
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -51394,7 +51394,7 @@
         "Count" : "4",
         "Key" : "TRACTOR"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "GUNN",
@@ -51414,7 +51414,7 @@
       "Key" : "TRACTOR213",
       "Name" : "Grappler 213 Tactical Tractor Beam",
       "Price" : "6200",
-      "RangeValue" : "wrClose",
+      "RangeValue" : "Close",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -51441,7 +51441,7 @@
         "Count" : false,
         "Key" : "STUNDAMAGE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "3",
       "Restricted" : "false",
       "SkillKey" : "LTSABER",
@@ -51462,7 +51462,7 @@
         "Count" : "2",
         "Key" : "DISORIENT"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "1",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -51486,7 +51486,7 @@
         "Count" : "2",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "8",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -51510,7 +51510,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -51534,7 +51534,7 @@
         "Count" : "1",
         "Key" : "SLOWFIRING"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -51557,7 +51557,7 @@
         "Count" : false,
         "Key" : "KNOCKDOWN"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -51587,7 +51587,7 @@
         "Count" : false,
         "Key" : "SUNDER"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "BRAWL",
@@ -51611,7 +51611,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "BRAWL",
@@ -51637,7 +51637,7 @@
         "Count" : "12",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -51664,7 +51664,7 @@
         "Count" : "6",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "GUNN",
@@ -51688,7 +51688,7 @@
         "Count" : "2",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -51712,7 +51712,7 @@
         "Count" : "4",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrExtreme",
+      "RangeValue" : "Extreme",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -51736,7 +51736,7 @@
         "Count" : false,
         "Key" : "STUNSETTING"
       } ],
-      "RangeValue" : "wrMedium",
+      "RangeValue" : "Medium",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "RANGHVY",
@@ -51763,7 +51763,7 @@
         "Count" : "3",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -51787,7 +51787,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "3",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -51811,7 +51811,7 @@
         "Count" : "3",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -51838,7 +51838,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -51867,7 +51867,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : "false",
       "SkillKey" : "BRAWL",
@@ -51894,7 +51894,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "4",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -51918,7 +51918,7 @@
         "Count" : "5",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "7",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -51948,7 +51948,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -51972,7 +51972,7 @@
         "Count" : "2",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "6",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -51999,7 +51999,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "MELEE",
@@ -52028,7 +52028,7 @@
         "Count" : "4",
         "Key" : "GUIDED"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -52049,7 +52049,7 @@
         "Count" : "2",
         "Key" : "CUMBERSOME"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGHVY",
@@ -52070,7 +52070,7 @@
         "Count" : "2",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -52094,7 +52094,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "RANGLT",
@@ -52124,7 +52124,7 @@
         "Count" : "1",
         "Key" : "VICIOUS"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "GUNN",
@@ -52148,7 +52148,7 @@
         "Count" : "1",
         "Key" : "DEFENSIVE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "8",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -52177,7 +52177,7 @@
         "Count" : "2",
         "Key" : "INACCURATE"
       } ],
-      "RangeValue" : "wrEngaged",
+      "RangeValue" : "Engaged",
       "Rarity" : "5",
       "Restricted" : "false",
       "SkillKey" : "MELEE",
@@ -52203,7 +52203,7 @@
         "Count" : "1",
         "Key" : "LIMITEDAMMO"
       } ],
-      "RangeValue" : "wrShort",
+      "RangeValue" : "Short",
       "Rarity" : "7",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -52227,7 +52227,7 @@
         "Count" : "2",
         "Key" : "PIERCE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "5",
       "Restricted" : false,
       "SkillKey" : "RANGLT",
@@ -52259,7 +52259,7 @@
         "Count" : "1",
         "Key" : "PREPARE"
       } ],
-      "RangeValue" : "wrLong",
+      "RangeValue" : "Long",
       "Rarity" : "7",
       "Restricted" : "true",
       "SkillKey" : "RANGHVY",

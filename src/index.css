@@ -27,12 +27,13 @@ table{
   margin: 10px 0 10px 10px;
 }
 
-tr {
+tr:hover {
+  background-color: lightgrey;
 }
 
-tbody tr:nth-child(odd) {
-   background-color: #BDBDBD;
-}
+/*tbody tr:nth-child(odd) {
+   background-color: inherit;
+}*/
 
 td {
   font-size: 20px;
@@ -40,7 +41,6 @@ td {
   width: 250px;
   vertical-align: middle;
   //border-bottom: 3px solid #757575;
-
 }
 
 .dark-primary-color    { background: #1976D2; }
