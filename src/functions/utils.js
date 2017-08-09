@@ -3,6 +3,9 @@ function calcStat(currentCharacter, stat) {
   stat = stat.toLowerCase();
   let calcStat = 0
   switch (stat) {
+    case 'totalxp':
+      calcStat = +currentCharacter.selectedSpecies.StartingAttrs.Experience
+      break;
     case 'wounds':
       calcStat = +currentCharacter.selectedSpecies.StartingAttrs.WoundThreshold
       break;

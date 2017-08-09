@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import * as firebase from 'firebase';
 import './index.css';
 var channel = window.location.pathname.slice(1).toLowerCase();
-import { calcCharacteristic, calcStat } from "./functions/utils";
-var build = require('./functions/MasterParser.js').Build;
+import { calcStat } from "./functions/utils";
+import { build } from'./functions/MasterParser';
 
 
 class TopBar extends Component {
